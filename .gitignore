@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# big raw datasets: share via Drive, not git
+data/raw/**/*.csv
+data/raw/**/*.pdf
+data/raw/**/*.zip
+!data/raw/**/.gitkeep
