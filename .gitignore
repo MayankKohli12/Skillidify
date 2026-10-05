@@ -1,6 +1,7 @@
 .env
 __pycache__/
 *.pyc
+venv/
 .venv/
 .DS_Store
 # big raw datasets: share via Drive, not git
