@@ -1,0 +1,6254 @@
+[
+    {
+        "skill_id": "esco_1270516241781944195",
+        "skill_name": "perform data analysis",
+        "distinct_employers": 721,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5490686347556470389",
+        "skill_name": "business analysis",
+        "distinct_employers": 477,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6512608720415888146",
+        "skill_name": "machine learning",
+        "distinct_employers": 402,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1561689646103038726",
+        "skill_name": "think analytically",
+        "distinct_employers": 402,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9171044687800470785",
+        "skill_name": "Python (computer programming)",
+        "distinct_employers": 365,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_775052798313476785",
+        "skill_name": "project management",
+        "distinct_employers": 317,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4855537187605720535",
+        "skill_name": "data analytics",
+        "distinct_employers": 303,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6066529745968756434",
+        "skill_name": "SQL",
+        "distinct_employers": 271,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8483461831839267741",
+        "skill_name": "principles of artificial intelligence",
+        "distinct_employers": 251,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7829155258704063045",
+        "skill_name": "automation technology",
+        "distinct_employers": 227,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_420803654883518888",
+        "skill_name": "data models",
+        "distinct_employers": 226,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7716767969103965921",
+        "skill_name": "use spreadsheets software",
+        "distinct_employers": 218,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6355232114687456542",
+        "skill_name": "computer science",
+        "distinct_employers": 204,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5984061441262961072",
+        "skill_name": "Agile development",
+        "distinct_employers": 167,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7290646306980165755",
+        "skill_name": "operations management",
+        "distinct_employers": 164,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_901665648613700782",
+        "skill_name": "personnel management",
+        "distinct_employers": 164,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4054825286835486457",
+        "skill_name": "manage data",
+        "distinct_employers": 159,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1316715261720314104",
+        "skill_name": "market research",
+        "distinct_employers": 139,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1894704208397729217",
+        "skill_name": "office administration",
+        "distinct_employers": 138,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5176259537891709468",
+        "skill_name": "JavaScript",
+        "distinct_employers": 134,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8306111701381603141",
+        "skill_name": "products coding system",
+        "distinct_employers": 133,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6478386458424087856",
+        "skill_name": "research design",
+        "distinct_employers": 130,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8003396048882011811",
+        "skill_name": "cloud technologies",
+        "distinct_employers": 129,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2142334382854778197",
+        "skill_name": "management consulting",
+        "distinct_employers": 129,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2338326977503534116",
+        "skill_name": "data science",
+        "distinct_employers": 128,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4637149628357689006",
+        "skill_name": "use microsoft office",
+        "distinct_employers": 127,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_455228925852876742",
+        "skill_name": "CSS",
+        "distinct_employers": 125,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7175279352255136879",
+        "skill_name": "sales activities",
+        "distinct_employers": 120,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6011337352055396321",
+        "skill_name": "quantitative analysis",
+        "distinct_employers": 116,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_348325666232088296",
+        "skill_name": "identify process improvements",
+        "distinct_employers": 108,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_167705516489175243",
+        "skill_name": "C++",
+        "distinct_employers": 105,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2895402721014328922",
+        "skill_name": "computer technology",
+        "distinct_employers": 101,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7361212196338104504",
+        "skill_name": "operating systems",
+        "distinct_employers": 100,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1877713016343451795",
+        "skill_name": "MySQL",
+        "distinct_employers": 98,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8048555510393002564",
+        "skill_name": "use data processing techniques",
+        "distinct_employers": 97,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2743727054731952635",
+        "skill_name": "participate in training sessions",
+        "distinct_employers": 94,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4895127298505012562",
+        "skill_name": "healthcare administration",
+        "distinct_employers": 93,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1056293962396167266",
+        "skill_name": "align efforts towards business development",
+        "distinct_employers": 92,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3596033447125658381",
+        "skill_name": "natural language processing",
+        "distinct_employers": 91,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5457243335808111545",
+        "skill_name": "customer service",
+        "distinct_employers": 90,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2824843216313558372",
+        "skill_name": "data visualisation software",
+        "distinct_employers": 86,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8604026085114726353",
+        "skill_name": "test procedures",
+        "distinct_employers": 86,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7480118111007267109",
+        "skill_name": "personal development",
+        "distinct_employers": 85,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5789677483590211228",
+        "skill_name": "data quality assessment",
+        "distinct_employers": 85,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_488366993399071015",
+        "skill_name": "solve problems",
+        "distinct_employers": 84,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8799827680021030996",
+        "skill_name": "SAP R3",
+        "distinct_employers": 84,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7549638886766385421",
+        "skill_name": "business intelligence",
+        "distinct_employers": 80,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_655181509240082555",
+        "skill_name": "financial analysis",
+        "distinct_employers": 80,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3587426364514886477",
+        "skill_name": "communication",
+        "distinct_employers": 76,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3873614540547015038",
+        "skill_name": "accounting",
+        "distinct_employers": 74,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_180816040286942844",
+        "skill_name": "computer programming",
+        "distinct_employers": 73,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5574716442175596288",
+        "skill_name": "marketing management",
+        "distinct_employers": 71,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3974954470072104317",
+        "skill_name": "implement quality management systems",
+        "distinct_employers": 71,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4999952425799221991",
+        "skill_name": "financial management",
+        "distinct_employers": 70,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3198425342738339620",
+        "skill_name": "digital marketing techniques",
+        "distinct_employers": 69,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8036464231328452004",
+        "skill_name": "engage with stakeholders",
+        "distinct_employers": 69,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1065269637379771058",
+        "skill_name": "implement a management system",
+        "distinct_employers": 69,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5050336080346650404",
+        "skill_name": "Oracle Relational Database",
+        "distinct_employers": 68,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6040185749918892571",
+        "skill_name": "architectural design",
+        "distinct_employers": 67,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4069393112569610779",
+        "skill_name": "risk management",
+        "distinct_employers": 66,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6410350450601064585",
+        "skill_name": "provide technical documentation",
+        "distinct_employers": 65,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3658914526885654474",
+        "skill_name": "data engineering",
+        "distinct_employers": 65,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6847709550663663131",
+        "skill_name": "network engineering",
+        "distinct_employers": 64,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6829074410691090412",
+        "skill_name": "Java (computer programming)",
+        "distinct_employers": 64,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5706887646472543944",
+        "skill_name": "data mining",
+        "distinct_employers": 64,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_690062116459064657",
+        "skill_name": "deep learning",
+        "distinct_employers": 64,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3481906612300494386",
+        "skill_name": "troubleshoot",
+        "distinct_employers": 63,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6700540120992319258",
+        "skill_name": "report misfires",
+        "distinct_employers": 63,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8092919244662717187",
+        "skill_name": "social media management",
+        "distinct_employers": 61,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_829049064382680177",
+        "skill_name": "manage data collection systems",
+        "distinct_employers": 60,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_91480396020025714",
+        "skill_name": "monitor assessment",
+        "distinct_employers": 59,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8696069834177839914",
+        "skill_name": "manage workflow processes",
+        "distinct_employers": 58,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5149442682752751984",
+        "skill_name": "supply chain management",
+        "distinct_employers": 58,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5359032181798011634",
+        "skill_name": "implement data warehousing techniques",
+        "distinct_employers": 57,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4647969261272638180",
+        "skill_name": "information structure",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5154027025037547872",
+        "skill_name": "database",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3114846074747294147",
+        "skill_name": "application process",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7297703751524023639",
+        "skill_name": "business analytics",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1622920384786962767",
+        "skill_name": "manage a team",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3059313644567841215",
+        "skill_name": "web services",
+        "distinct_employers": 56,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2711202235367386397",
+        "skill_name": "create software design",
+        "distinct_employers": 55,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6337917809903748529",
+        "skill_name": "ensure compliance with policies",
+        "distinct_employers": 55,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7939688499570711770",
+        "skill_name": "solution deployment",
+        "distinct_employers": 53,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1875723551650498672",
+        "skill_name": "algorithms",
+        "distinct_employers": 52,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8922499534393829922",
+        "skill_name": "system design",
+        "distinct_employers": 52,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7093921328987342398",
+        "skill_name": "develop personal skills",
+        "distinct_employers": 51,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4408698746122582750",
+        "skill_name": "financial forecasting",
+        "distinct_employers": 50,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2328545184756739172",
+        "skill_name": "levels of software testing",
+        "distinct_employers": 49,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5968065922969032217",
+        "skill_name": "PostgreSQL",
+        "distinct_employers": 49,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4162352877153178282",
+        "skill_name": "debug software",
+        "distinct_employers": 48,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8124011546471404614",
+        "skill_name": "manage budgets",
+        "distinct_employers": 47,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8153336587115652469",
+        "skill_name": "tuning techniques",
+        "distinct_employers": 47,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_390199103403415480",
+        "skill_name": "business processes",
+        "distinct_employers": 47,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2967140329573897005",
+        "skill_name": "computer vision",
+        "distinct_employers": 46,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1499910046504655845",
+        "skill_name": "develop predictive models",
+        "distinct_employers": 46,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_195896528544582279",
+        "skill_name": "web analytics",
+        "distinct_employers": 45,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6362894526476882512",
+        "skill_name": "industrial software",
+        "distinct_employers": 45,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6352985179971729968",
+        "skill_name": "analyse big data",
+        "distinct_employers": 45,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4270775993213999549",
+        "skill_name": "apply change management",
+        "distinct_employers": 44,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2435717065849857147",
+        "skill_name": "NoSQL",
+        "distinct_employers": 44,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8704980896657771293",
+        "skill_name": "provide technical expertise",
+        "distinct_employers": 44,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8407528847557884565",
+        "skill_name": "offer financial services",
+        "distinct_employers": 44,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3075685821741008568",
+        "skill_name": "database management systems",
+        "distinct_employers": 43,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7556475833479350716",
+        "skill_name": "prepare presentation material",
+        "distinct_employers": 42,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5405523708254133183",
+        "skill_name": "data protection",
+        "distinct_employers": 42,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6062836442821833626",
+        "skill_name": "industrial engineering",
+        "distinct_employers": 40,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5580649719228899205",
+        "skill_name": "Rapid application development",
+        "distinct_employers": 39,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_421076286576803249",
+        "skill_name": "search engines",
+        "distinct_employers": 38,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9079538997955120155",
+        "skill_name": "web programming",
+        "distinct_employers": 38,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2094362431400977821",
+        "skill_name": "product data management",
+        "distinct_employers": 38,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6858880379997045375",
+        "skill_name": "mathematical modelling",
+        "distinct_employers": 37,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7967986256930669749",
+        "skill_name": "operate open source software",
+        "distinct_employers": 37,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1559321257004314467",
+        "skill_name": "artificial neural networks",
+        "distinct_employers": 36,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_432372302444758577",
+        "skill_name": "audit techniques",
+        "distinct_employers": 36,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6706266063658810109",
+        "skill_name": "PHP",
+        "distinct_employers": 35,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1597504984319763955",
+        "skill_name": "process applications",
+        "distinct_employers": 35,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8157003393604628041",
+        "skill_name": "continuous improvement philosophies",
+        "distinct_employers": 34,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5924849844589215344",
+        "skill_name": "investment banking",
+        "distinct_employers": 34,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7326598303815351563",
+        "skill_name": "build machines",
+        "distinct_employers": 34,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1841796128730748216",
+        "skill_name": "write routine reports",
+        "distinct_employers": 33,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3881138051052572344",
+        "skill_name": "interact with users to gather requirements",
+        "distinct_employers": 33,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8069309744648370910",
+        "skill_name": "create a financial report",
+        "distinct_employers": 33,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8916007833654921976",
+        "skill_name": "manage time",
+        "distinct_employers": 32,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3120071662296658656",
+        "skill_name": "summarise stories",
+        "distinct_employers": 31,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1266716760909727157",
+        "skill_name": "recruit personnel",
+        "distinct_employers": 31,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3022254992710022130",
+        "skill_name": "manage content metadata",
+        "distinct_employers": 31,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8832850351350507529",
+        "skill_name": "information governance compliance",
+        "distinct_employers": 31,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2088230786708255713",
+        "skill_name": "Sass",
+        "distinct_employers": 30,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6174289791661114081",
+        "skill_name": "strategic planning",
+        "distinct_employers": 30,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8430560626532926682",
+        "skill_name": "program management",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4960566101342731932",
+        "skill_name": "business requirements techniques",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1096684255719205343",
+        "skill_name": "banking activities",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4314287807019737782",
+        "skill_name": "digital image processing",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1426873634419518237",
+        "skill_name": "DevOps",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5831324104106900236",
+        "skill_name": "Scala",
+        "distinct_employers": 29,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3879204542175835134",
+        "skill_name": "ICT infrastructure",
+        "distinct_employers": 28,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_406655562375349266",
+        "skill_name": "have emotional intelligence",
+        "distinct_employers": 28,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_351078476562066886",
+        "skill_name": "develop product design",
+        "distinct_employers": 28,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6089637391905574124",
+        "skill_name": "manage staff",
+        "distinct_employers": 27,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7563192169421675358",
+        "skill_name": "operational research",
+        "distinct_employers": 27,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4246594523978775651",
+        "skill_name": "generate reconciliation reports",
+        "distinct_employers": 27,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8806616294452790552",
+        "skill_name": "systems development life-cycle",
+        "distinct_employers": 26,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8980578992425181140",
+        "skill_name": "insurance law",
+        "distinct_employers": 26,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6453211092026803861",
+        "skill_name": "manage quality",
+        "distinct_employers": 26,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4012475564243697337",
+        "skill_name": "develop automated software tests",
+        "distinct_employers": 26,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7481492721064557002",
+        "skill_name": "perform business analysis",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5194496467832028830",
+        "skill_name": "manage difficult clients",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5475172592650718028",
+        "skill_name": "analyse pipeline database information",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9017542612228038845",
+        "skill_name": "design database scheme",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8135975830422076822",
+        "skill_name": "health care system",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2221389815095217536",
+        "skill_name": "procurement legislation",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9168087342170678752",
+        "skill_name": "customer relationship management",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2428058886140756344",
+        "skill_name": "sales strategies",
+        "distinct_employers": 25,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7375845079263305237",
+        "skill_name": "monitor billing procedures",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_914711583399143801",
+        "skill_name": "orchestrate music",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7489482060434661728",
+        "skill_name": "biology",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6976764159299658809",
+        "skill_name": "market analysis",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3277142118677431027",
+        "skill_name": "MATLAB",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3513489114727780273",
+        "skill_name": "quality control systems",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6688011047003876052",
+        "skill_name": "supervise data entry",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7900195612150869957",
+        "skill_name": "supplier management",
+        "distinct_employers": 24,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9120696171462442349",
+        "skill_name": "migrate existing data",
+        "distinct_employers": 23,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5769123757716113082",
+        "skill_name": "use presentation software",
+        "distinct_employers": 23,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1685828069955466521",
+        "skill_name": "report facts",
+        "distinct_employers": 23,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3631015142371464488",
+        "skill_name": "Android (mobile operating systems)",
+        "distinct_employers": 23,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6566367013717132091",
+        "skill_name": "execute email marketing",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3786807332510671002",
+        "skill_name": "comply with schedule",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3517826728923314468",
+        "skill_name": "perform software unit testing",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9057517133029130581",
+        "skill_name": "develop reporting software",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8292477778916643620",
+        "skill_name": "SPARK",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4373313262482924258",
+        "skill_name": "lead technology development of an organisation",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5021536232607629717",
+        "skill_name": "maintain database performance",
+        "distinct_employers": 22,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4948157598076348477",
+        "skill_name": "propose ICT solutions to business problems",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1872466278845859204",
+        "skill_name": "Informatica PowerCenter",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5723011814467634666",
+        "skill_name": "create a financial plan",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5329094792914187557",
+        "skill_name": "telecommunication industry",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7179785117286014584",
+        "skill_name": "pharmaceutical industry",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7795461822381679233",
+        "skill_name": "talent management strategies",
+        "distinct_employers": 21,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5468242363614256198",
+        "skill_name": "cost management",
+        "distinct_employers": 20,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5517006102854306684",
+        "skill_name": "advertising techniques",
+        "distinct_employers": 20,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8795349741194900188",
+        "skill_name": "apply customer engagement strategy",
+        "distinct_employers": 20,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3493882957023942778",
+        "skill_name": "quality assurance procedures",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1748564988379446641",
+        "skill_name": "Adobe Photoshop",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2257916399539605774",
+        "skill_name": "CADD software",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8325998482824719090",
+        "skill_name": "ASP.NET",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3318066428522594465",
+        "skill_name": "teach mathematics",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2951587102144545651",
+        "skill_name": "manage payroll",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2108515833151015198",
+        "skill_name": "conform with production requirements",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_350202398801317566",
+        "skill_name": "claims procedures",
+        "distinct_employers": 19,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9102220218851983340",
+        "skill_name": "use scripting programming",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5954893170764816371",
+        "skill_name": "statistical modeling techniques",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9145587975794665699",
+        "skill_name": "e-commerce systems",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9024433628598520503",
+        "skill_name": "business strategy concepts",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4400119341868575637",
+        "skill_name": "manage customer service",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1820973889485492744",
+        "skill_name": "build business relationships",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2955742170519771238",
+        "skill_name": "manage accounts",
+        "distinct_employers": 18,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6527730512256621488",
+        "skill_name": "innovation processes",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7370184981165964802",
+        "skill_name": "stack goods",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2737494524799685968",
+        "skill_name": "assess the work during the performance",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1853215872358578580",
+        "skill_name": "statistics",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7209895664957713747",
+        "skill_name": "writing techniques",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_459880652674266231",
+        "skill_name": "data security principles",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5094471570564277157",
+        "skill_name": "human resource management",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5413113576418646374",
+        "skill_name": "machine tools",
+        "distinct_employers": 17,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6568585299159003258",
+        "skill_name": "design process",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7108680299892164932",
+        "skill_name": "adobe creative suite",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5287093525362138225",
+        "skill_name": "analyse test data",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4282886626120561291",
+        "skill_name": "computer engineering",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_61816055122543264",
+        "skill_name": "quality standards",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5077430751628410338",
+        "skill_name": "asset management",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6961408318329845778",
+        "skill_name": "design prototypes",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4353273391805313795",
+        "skill_name": "logistics",
+        "distinct_employers": 16,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_160606744283054993",
+        "skill_name": "operate automated process control",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1151005439225413878",
+        "skill_name": "software architecture models",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6768142541448166555",
+        "skill_name": "dock operations",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8325685627994835346",
+        "skill_name": "digital systems",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1361539544640990679",
+        "skill_name": "financial statements",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8500144123106832747",
+        "skill_name": "own management skills",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1451673317362709876",
+        "skill_name": "follow up accounts receivables",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4578672213390610223",
+        "skill_name": "WordPress",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4547588280289308355",
+        "skill_name": "design customer experiences",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6809386290850541533",
+        "skill_name": "ML (computer programming)",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3664323969762889993",
+        "skill_name": "data storage",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_703327170647051244",
+        "skill_name": "stock market",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7485722012665764672",
+        "skill_name": "SQL Server",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3337906512132514526",
+        "skill_name": "supervise sales activities",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7127425509198049809",
+        "skill_name": "develop business plans",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6599133285922376340",
+        "skill_name": "integrate system components",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_489417452342841336",
+        "skill_name": "create documented procedures",
+        "distinct_employers": 15,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3023232246811675870",
+        "skill_name": "guarantee customer satisfaction",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2680095049068523022",
+        "skill_name": "create model",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6338204513037201224",
+        "skill_name": "Visual Basic",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5675860928676885440",
+        "skill_name": "information architecture",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6765317013507992887",
+        "skill_name": "emergent technologies",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_126229434395784394",
+        "skill_name": "training subject expertise",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3135065646866007614",
+        "skill_name": "manage resources",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3477667813822561558",
+        "skill_name": "write technical reports",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7845763437769003035",
+        "skill_name": "control air flow",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3631151526623790081",
+        "skill_name": "provide written content",
+        "distinct_employers": 14,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8078711864621568477",
+        "skill_name": "domain name service",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3461325240770619647",
+        "skill_name": "automotive engineering",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6830582695292454864",
+        "skill_name": "publishing industry",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6756091054350730257",
+        "skill_name": "develop training programmes",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3879640197780806245",
+        "skill_name": "root cause analysis",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7149401862023854181",
+        "skill_name": "trademarks",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4546003877673754225",
+        "skill_name": "English",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3741312242316579514",
+        "skill_name": "deliver outstanding service",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_273416480900387522",
+        "skill_name": "Microsoft Visio",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4261481351034566153",
+        "skill_name": "internal auditing",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5611762704704644790",
+        "skill_name": "develop taxation policies",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1515542430741283605",
+        "skill_name": "monitor ticketing",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4392822364688285",
+        "skill_name": "identify problems",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2374964081384672899",
+        "skill_name": "mortgage loans",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2363233021496106037",
+        "skill_name": "digital media",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5119537046183690894",
+        "skill_name": "comply with regulations",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3228599022390569602",
+        "skill_name": "investment analysis",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4651101320103175889",
+        "skill_name": "use functional programming",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_473193325803501349",
+        "skill_name": "advise architects",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4353558759046390074",
+        "skill_name": "leadership principles",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4165265137823561501",
+        "skill_name": "develop design concept",
+        "distinct_employers": 13,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2387343128472964277",
+        "skill_name": "perform business research",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6491217336216680867",
+        "skill_name": "production processes",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6233968236666830394",
+        "skill_name": "maintain relationship with customers",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6370139290037453672",
+        "skill_name": "mathematics",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4014570777678560286",
+        "skill_name": "control systems",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8389494653883944038",
+        "skill_name": "facilitate the bidding process",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4645351403898721311",
+        "skill_name": "linguistics",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1009779882057892395",
+        "skill_name": "conduct quantitative research",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4326300529228968329",
+        "skill_name": "meet commitments in hospitality",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7333695842854972741",
+        "skill_name": "mentor individuals",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2564754234409458879",
+        "skill_name": "analyse business requirements",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4186840301675427705",
+        "skill_name": "technical terminology",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8856371515546893277",
+        "skill_name": "SAP Data Services",
+        "distinct_employers": 12,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2129633387898089418",
+        "skill_name": "computer simulation",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2851926480145086201",
+        "skill_name": "warehouse operations",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9071548978248642791",
+        "skill_name": "consumer goods industry",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4957684830283042179",
+        "skill_name": "optimise production processes parameters",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3983610922447639161",
+        "skill_name": "use global distribution system",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9098457643754804404",
+        "skill_name": "solve technical problems",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1376190816985104445",
+        "skill_name": "business law",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_497816463291693494",
+        "skill_name": "perform balance sheet operations",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5309147659096232323",
+        "skill_name": "maintenance operations",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7313870207618994020",
+        "skill_name": "conduct online competitive analysis",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4184623665907759910",
+        "skill_name": "financial markets",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_405843547538610426",
+        "skill_name": "electronics",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4930619418137010697",
+        "skill_name": "create advertisements",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9052710764579649040",
+        "skill_name": "conduct performance tests",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1536362373529820256",
+        "skill_name": "real estate underwriting",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1528632711092756636",
+        "skill_name": "corporate law",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_640349861034122207",
+        "skill_name": "design enterprise architecture",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5452247019718885935",
+        "skill_name": "process data",
+        "distinct_employers": 11,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_249298562078837141",
+        "skill_name": "plan retail space",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2987688719575363091",
+        "skill_name": "life sciences",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1077061845313891323",
+        "skill_name": "information security strategy",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9053895253632576837",
+        "skill_name": "hear legal arguments",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8116251628940278991",
+        "skill_name": "apply case management",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_968529870357711065",
+        "skill_name": "modern languages",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6314812877272701373",
+        "skill_name": "recruit employees",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5083534981428298000",
+        "skill_name": "support managers",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1288423278241241119",
+        "skill_name": "social media marketing techniques",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1948471816999660776",
+        "skill_name": "genetics",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7972072226807565223",
+        "skill_name": "perform video editing",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1058916729177260709",
+        "skill_name": "research website users",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_801818343277682093",
+        "skill_name": "apply gaming psychology",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_148641855179950510",
+        "skill_name": "international business",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3572258304892683108",
+        "skill_name": "cyber security",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4023642004465967418",
+        "skill_name": "advise on career",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4533244545684080356",
+        "skill_name": "risk identification",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8419816696155705968",
+        "skill_name": "CAD software",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_519559723946704808",
+        "skill_name": "tally lumber",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7307673447393807056",
+        "skill_name": "manage portfolio",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4905686862376596164",
+        "skill_name": "identify legal requirements",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6746747433849146248",
+        "skill_name": "sales department processes",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4075466679212128819",
+        "skill_name": "trade securities",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3432565259837890206",
+        "skill_name": "iOS",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7984639939469267084",
+        "skill_name": "unseen translation",
+        "distinct_employers": 10,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7412601284870873134",
+        "skill_name": "mergers and acquisitions",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9095406042034732629",
+        "skill_name": "transportation software related to an ERP system",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_930598483687430183",
+        "skill_name": "Edmodo",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8253608559914391462",
+        "skill_name": "Angular",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6338396653453505555",
+        "skill_name": "operate voice picking systems",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_490550789179682815",
+        "skill_name": "protect personal data and privacy",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3937673898740389657",
+        "skill_name": "apply statistical analysis techniques",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7139151038945093919",
+        "skill_name": "services marketing",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2082590067775149272",
+        "skill_name": "manage sales channels",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1101859284967828540",
+        "skill_name": "develop new products",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8389827776464281625",
+        "skill_name": "information extraction",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5887146765127290413",
+        "skill_name": "transcription methods",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2618554127948970015",
+        "skill_name": "pharmaceutical technology",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8582623085683866472",
+        "skill_name": "promote healthy lifestyle",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3972242647283546090",
+        "skill_name": "mechanical engineering",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1391361708049715921",
+        "skill_name": "manage inventory",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1683003379464031829",
+        "skill_name": "computer graphics",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5221446092497429956",
+        "skill_name": "AJAX",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2232505604151539313",
+        "skill_name": "identify GIS issues",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8935703433866211421",
+        "skill_name": "VBScript",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2258418422118638237",
+        "skill_name": "edit photographs",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1715835114903551749",
+        "skill_name": "semiconductors",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1997013538749077324",
+        "skill_name": "Internet of Things",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7952049319651696052",
+        "skill_name": "draft project documentation",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3054925689673299795",
+        "skill_name": "digital content creation",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4857781157985722851",
+        "skill_name": "design user interface",
+        "distinct_employers": 9,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6617093002401728648",
+        "skill_name": "communicate regulations",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5229836910654590658",
+        "skill_name": "relationship marketing",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3273325453583116427",
+        "skill_name": "product life-cycle",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_732432887284455257",
+        "skill_name": "prepare orders",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3927537016978918532",
+        "skill_name": "price product",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7640112364545003521",
+        "skill_name": "radiology",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6939652919363046550",
+        "skill_name": "write specifications",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_96532740162075829",
+        "skill_name": "electrical engineering",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5016673063848460036",
+        "skill_name": "diagnostic methods in medical laboratory",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7344482274088522485",
+        "skill_name": "six sigma methods",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4634033857034636032",
+        "skill_name": "use access control software",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4039632562396898146",
+        "skill_name": "mining engineering",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4573315323553209207",
+        "skill_name": "communicate technicalities with clients",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3241246208950215500",
+        "skill_name": "advise client on technical possibilities",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7671123455999598147",
+        "skill_name": "use a telecine",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8091894250722006744",
+        "skill_name": "develop creative ideas",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5677875868884423330",
+        "skill_name": "ICT project management",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7341520108887196333",
+        "skill_name": "instrumentation engineering",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8613518712574298743",
+        "skill_name": "packaging engineering",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5928782855186590695",
+        "skill_name": "mobile device software frameworks",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4168459708289243530",
+        "skill_name": "promote inclusion",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7335962194276495222",
+        "skill_name": "types of spring",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_648621992848292806",
+        "skill_name": "chemistry",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1591608319263655478",
+        "skill_name": "hardware architectures",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4417228236105986675",
+        "skill_name": "French",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1473247965255202245",
+        "skill_name": "robotics",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3779111778563076622",
+        "skill_name": "industrial design",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6815850534730234039",
+        "skill_name": "develop test procedures",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4086756100951200140",
+        "skill_name": "trendwatching",
+        "distinct_employers": 8,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4821522491508370752",
+        "skill_name": "create solutions to problems",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8103250115925871685",
+        "skill_name": "financial products",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_66047761320635081",
+        "skill_name": "Apache Maven",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4744294720764204463",
+        "skill_name": "identify suppliers",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1262366420648839647",
+        "skill_name": "conduct cancer screening tests",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2892782200765403695",
+        "skill_name": "principles of animation",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3773073025601094351",
+        "skill_name": "software frameworks",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1782322523360121583",
+        "skill_name": "intellectual property law",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5300635128385268806",
+        "skill_name": "collect mapping data",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3125387456910725408",
+        "skill_name": "carry out sales analysis",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4526160955016137565",
+        "skill_name": "report on overall management of a business",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8731747128915241659",
+        "skill_name": "interpret business information",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5370889036919743705",
+        "skill_name": "manage revenue",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5244856163640601125",
+        "skill_name": "prevent money laundering in gambling",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_9116073985679084859",
+        "skill_name": "perform data cleansing",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6363865035098781499",
+        "skill_name": "facilities management in the organisation",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7431179774651992205",
+        "skill_name": "medical imaging technology",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7273587088753211555",
+        "skill_name": "APL",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3651173061641890971",
+        "skill_name": "object-oriented modelling",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3495129830923233691",
+        "skill_name": "aerospace engineering",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6041291355259980386",
+        "skill_name": "manage disaster recovery plans",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5797862754717809395",
+        "skill_name": "manage account department",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_736154965604501780",
+        "skill_name": "assess quality of services",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_136207030022677323",
+        "skill_name": "design engineering components",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7939884353598550145",
+        "skill_name": "manage tests",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2603701177316478961",
+        "skill_name": "organise training",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6922517188153765199",
+        "skill_name": "manage contracts",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_435662283308473974",
+        "skill_name": "observe teaching activities",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7806025585551948199",
+        "skill_name": "develop business case",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5804467884839993572",
+        "skill_name": "investigation research methods",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_859170466168927124",
+        "skill_name": "business ICT systems",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8669684346669665681",
+        "skill_name": "COBOL",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2972372679147111584",
+        "skill_name": "Hadoop",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8327311653970001293",
+        "skill_name": "handle cash flow",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5974973681167753636",
+        "skill_name": "execute integration testing",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_339692463332498336",
+        "skill_name": "team building",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4952383662259336395",
+        "skill_name": "industrial research and development",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4466605066301008822",
+        "skill_name": "search engine optimisation",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1119029301815739387",
+        "skill_name": "identify clients' needs",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2020406098889953765",
+        "skill_name": "characteristics of services",
+        "distinct_employers": 7,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6082306133930542226",
+        "skill_name": "apply credit risk policy",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8628488601524161261",
+        "skill_name": "perform multiple tasks at the same time",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7936386027090616442",
+        "skill_name": "discern written communication",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5222951253719095460",
+        "skill_name": "marketing analytics",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5643455663301109767",
+        "skill_name": "read scripts",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4748922376588818505",
+        "skill_name": "perform risk analysis",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7511593398520119833",
+        "skill_name": "strive for company growth",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7206612162271781609",
+        "skill_name": "assist in clinical trials",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4782059026296349202",
+        "skill_name": "manufacturing processes",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2639172793327227422",
+        "skill_name": "public finance",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4648149607160745282",
+        "skill_name": "DB2",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4770595810249578886",
+        "skill_name": "integrate ICT data",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1199374466684673826",
+        "skill_name": "German",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3139150698177002663",
+        "skill_name": "ICT sales methodologies",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3549381325394301012",
+        "skill_name": "interview people",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1607039000268026400",
+        "skill_name": "manage engineering project",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7329788582876394619",
+        "skill_name": "collection management",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4178118927281664913",
+        "skill_name": "security engineering",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2564674512239024153",
+        "skill_name": "outsourcing strategy",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2183089604223217117",
+        "skill_name": "sensors",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_272373035883308528",
+        "skill_name": "military aviation",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2926339232938173288",
+        "skill_name": "plan digital marketing",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5018926541348056587",
+        "skill_name": "manage administrative systems",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2067381667830272186",
+        "skill_name": "optimise production",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1655641620994221128",
+        "skill_name": "SMED",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3904863200687988609",
+        "skill_name": "plan resource allocation",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8812308395368347091",
+        "skill_name": "manage major incidents",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1940240087503311403",
+        "skill_name": "provide performance feedback",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6233088696422521381",
+        "skill_name": "clinical science",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4841806453748002840",
+        "skill_name": "design application interfaces",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7475552875400107568",
+        "skill_name": "design hardware",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8830712205987894691",
+        "skill_name": "report analysis results",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5354938240212411733",
+        "skill_name": "install software",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4160818083134502637",
+        "skill_name": "use specific data analysis software",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3905647441076547271",
+        "skill_name": "write manuals",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6633565685157193598",
+        "skill_name": "perform product planning",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1695565628179160220",
+        "skill_name": "perform quality audits",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1524986635701157629",
+        "skill_name": "manage the general ledger",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1310753035042804360",
+        "skill_name": "thread wire",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8649315385658743511",
+        "skill_name": "ensure products meet regulatory requirements",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_331034744287410972",
+        "skill_name": "manage information sources",
+        "distinct_employers": 6,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6879917547180304875",
+        "skill_name": "set production KPI",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3508903934831684921",
+        "skill_name": "statistical process control",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1960812384575753913",
+        "skill_name": "sell services",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6942459587978725463",
+        "skill_name": "write research proposals",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3276246792800934614",
+        "skill_name": "counselling methods",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6766998751774168111",
+        "skill_name": "hardware platforms",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6747679158785712966",
+        "skill_name": "implement marketing strategies",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8499941676598921169",
+        "skill_name": "Spanish",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2903369010390003720",
+        "skill_name": "lead a team",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_107189980414285789",
+        "skill_name": "assist in developing marketing campaigns",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2842863123125311776",
+        "skill_name": "define technology strategy",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7605145907998653431",
+        "skill_name": "handle customer complaints",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6187071950001706602",
+        "skill_name": "use computer telephony integration",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5961320890514064325",
+        "skill_name": "calculate tax",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4404172809995993497",
+        "skill_name": "feed mirror machine",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8820722984734369593",
+        "skill_name": "perceive context when interpreting",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7247741373561884902",
+        "skill_name": "Microsoft Access",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4947891185755481122",
+        "skill_name": "perform system analysis",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_317594090628954321",
+        "skill_name": "image recognition",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8540902897451427623",
+        "skill_name": "inter-organisational middleware system",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6196328982727022603",
+        "skill_name": "dispatch order processing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2636712989612227811",
+        "skill_name": "use X-ray machines",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4441333309845047245",
+        "skill_name": "carry out financial transactions",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2417780974792630185",
+        "skill_name": "firmware",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7466399616698171682",
+        "skill_name": "genomics",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7292289381602498470",
+        "skill_name": "R",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4917480209559981801",
+        "skill_name": "biotechnology",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_48685143345767021",
+        "skill_name": "proofread text",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_218212163775139030",
+        "skill_name": "tutor students",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4211878311390561367",
+        "skill_name": "assess customers",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8017763570220985552",
+        "skill_name": "measure paper sheets",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7691919510132638043",
+        "skill_name": "develop with cloud services",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5285812093192649624",
+        "skill_name": "evaluate training",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6306583838795619748",
+        "skill_name": "operate relational database management system",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2678444784797171635",
+        "skill_name": "record healthcare users' billing information",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1194725250937200892",
+        "skill_name": "urban planning",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3003004969648096614",
+        "skill_name": "graphic design",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5091108640433344615",
+        "skill_name": "molecular biology",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_607155371494987944",
+        "skill_name": "develop architectural plans",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5008779117143402631",
+        "skill_name": "3D modelling",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2277415875579784785",
+        "skill_name": "QlikView Expressor",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6946574401904650733",
+        "skill_name": "use customer relationship management software",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4453827809866041190",
+        "skill_name": "channel marketing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5736258201074748713",
+        "skill_name": "beer downstream processing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_67128161611118048",
+        "skill_name": "supply machine",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4223996456105290072",
+        "skill_name": "supervise brand management",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7456180840355660444",
+        "skill_name": "perform clerical duties",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5709494665626193938",
+        "skill_name": "develop revenue generation strategies",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8800990015449132044",
+        "skill_name": "content marketing strategy",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8455898347875120609",
+        "skill_name": "business communication",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5103199738430540594",
+        "skill_name": "environmental engineering",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7383363135438797920",
+        "skill_name": "process payments",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_8539558936551195185",
+        "skill_name": "coaching techniques",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6677467049831644253",
+        "skill_name": "electricity",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4491241847360939059",
+        "skill_name": "type at speed",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_3144307079219802295",
+        "skill_name": "manage system testing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2700359721557268882",
+        "skill_name": "ethics",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5280360414142810959",
+        "skill_name": "use technical documentation",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2318833592159231717",
+        "skill_name": "have computer literacy",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_494161812725158230",
+        "skill_name": "identify new business opportunities",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4491199934060628867",
+        "skill_name": "manage cloud data and storage",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_7945063860459503839",
+        "skill_name": "nursing science",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_2631876593080540268",
+        "skill_name": "market pricing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_493623012516944034",
+        "skill_name": "provide technical training",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5706408417495114921",
+        "skill_name": "establish investment funds",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_6957076501223502140",
+        "skill_name": "develop campaigns",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_4712015315947541383",
+        "skill_name": "mobile marketing",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_5704307051533813088",
+        "skill_name": "mechanics",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    },
+    {
+        "skill_id": "esco_1603108592754919329",
+        "skill_name": "assist community",
+        "distinct_employers": 5,
+        "demand_depth": "apply",
+        "trend": "steady",
+        "trend_2030_estimate": 0,
+        "trend_confidence_band": [
+            0,
+            0
+        ]
+    }
+]

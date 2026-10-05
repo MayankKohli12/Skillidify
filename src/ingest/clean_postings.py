@@ -6,6 +6,10 @@ from rapidfuzz import fuzz
 from sentence_transformers import SentenceTransformer, util
 import torch
 import numpy as np
+
+print("Loading MiniLM embedding model...")
+embedder = SentenceTransformer('all-MiniLM-L6-v2')
+
 # --- CONFIGURATION ---
 RAW_JOBS_DIR = Path("data/raw/jobs")
 RAW_ESCO_DIR = Path("data/raw/esco")
@@ -90,21 +94,84 @@ def filter_fresher_roles(df: pd.DataFrame) -> pd.DataFrame:
     print(f"Postings after fresher filter: {len(df_freshers)}")
     return df_freshers
 
+def load_esco_skills() -> list:
+    """Step 4a: Load the ESCO vocabulary."""
+    esco_file = RAW_ESCO_DIR / "skills_en.csv"
+    if not esco_file.exists():
+        print(f"Warning: ESCO file not found at {esco_file}. Using dummy skills for test.")
+        return ["python programming", "data analysis", "machine learning", "cloud architecture"]
+        
+    df_esco = pd.read_csv(esco_file)
+    # ESCO's default column for the skill name is 'preferredLabel'
+    return df_esco['preferredLabel'].dropna().unique().tolist()
 
+def map_skills_and_count_employers(df: pd.DataFrame, esco_skills: list, threshold_k: int = 3) -> list:
+    """Steps 4b, 5 & 6: Match skills, count distinct employers, apply threshold."""
+    print(f"Embedding {len(esco_skills)} ESCO skills (this takes ~30-60 seconds)...")
+    esco_embeddings = embedder.encode(esco_skills, convert_to_tensor=True)
+    
+    employer_counts = {skill: set() for skill in esco_skills}
+    
+    print("Mapping job posting skills to ESCO vocabulary...")
+    col_to_use = 'skills_required' if 'skills_required' in df.columns else 'required_skills'
+    
+    for _, row in df.iterrows():
+        employer = str(row[COL_EMPLOYER]).strip()
+        raw_skills = str(row.get(col_to_use, "")).split(',')
+        
+        raw_skills = [s.strip() for s in raw_skills if len(s.strip()) > 2]
+        if not raw_skills:
+            continue
+            
+        raw_embeddings = embedder.encode(raw_skills, convert_to_tensor=True)
+        cos_scores = util.cos_sim(raw_embeddings, esco_embeddings)
+        
+        max_scores, max_idxs = torch.max(cos_scores, dim=1)
+        
+        for i, score in enumerate(max_scores):
+            if score.item() > 0.6:  # Confidence threshold
+                matched_esco_skill = esco_skills[max_idxs[i].item()]
+                employer_counts[matched_esco_skill].add(employer)
+
+    verified_skills = []
+    for skill, employers in employer_counts.items():
+        count = len(employers)
+        if count >= threshold_k:
+            verified_skills.append({
+                "skill_id": f"esco_{abs(hash(skill))}", 
+                "skill_name": skill,
+                "distinct_employers": count,
+                "demand_depth": "apply", 
+                "trend": "steady",
+                "trend_2030_estimate": 0,
+                "trend_confidence_band": [0, 0]
+            })
+            
+    verified_skills.sort(key=lambda x: x['distinct_employers'], reverse=True)
+    print(f"\nExtracted {len(verified_skills)} verified skills meeting threshold k={threshold_k}")
+    return verified_skills
 
 def main():
-    # Execute the pipeline up to the filter step
     df_raw = load_raw_data()
-    if df_raw.empty:
-        return
+    if df_raw.empty: return
         
-    # Print the columns so you can verify what names to put in the CONFIG variables
-    print(f"\nDetected columns: {df_raw.columns.tolist()}\n")
-    
     df_deduped = deduplicate_postings(df_raw)
     df_freshers = filter_fresher_roles(df_deduped)
     
-    print("\nInitial pipeline test complete. Please check the column names printed above.")
+    esco_list = load_esco_skills()
+    
+    # We set k=5 meaning 5 DIFFERENT employers must ask for the skill for it to count
+    final_skills = map_skills_and_count_employers(df_freshers, esco_list, threshold_k=5)
+    
+    # Write Step 7: employer_verified.json
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(final_skills, f, indent=4)
+        
+    print(f"\nSuccess! Wrote top skills to {OUTPUT_FILE}")
+    print("Top 5 skills demanded by employers:")
+    for skill in final_skills[:5]:
+        print(f" - {skill['skill_name']} ({skill['distinct_employers']} employers)")
 
 if __name__ == "__main__":
     main()
