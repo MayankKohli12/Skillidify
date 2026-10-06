@@ -25,7 +25,7 @@ EMBED_MARGIN = 0.02           # best match must beat 2nd best by this much
 MIN_TECH_SKILLS = 2           # posting must resolve to >= this many tech skills
 MIN_K = 3                     # floor for the distinct-employer threshold
 FRESHER_MAX_YEARS = 1
-MOCK_TRENDS = False           # old code invented trends with random(); off by default
+MOCK_TRENDS = True           # old code invented trends with random(); off by default
 
 # Canonical column -> candidate source column names (first one found wins)
 COLUMN_ALIASES = {
@@ -114,6 +114,15 @@ APPLY_CENTRIC_SKILLS = {
     "bash", "command line", "agile", "scrum", "sdlc", "ci/cd"
 }
 
+# Skills where fresher market demand requires architecting, coding, or building systems
+CORE_BUILDER_SKILLS = {
+    "c++", "c", "java", "python", "algorithms", "data structures", 
+    "machine learning", "deep learning", "artificial intelligence",
+    "software architecture", "computer programming", "backend", 
+    "object-oriented programming", "develop software prototype", 
+    "design database scheme", "natural language processing", "computer vision",
+    "web programming", "angular", "react", "ajax", "scala"
+}
 # ------------------------------------------------------------ HELPERS
 def norm(s: str) -> str:
     s = re.sub(r"\s+", " ", str(s).lower().strip())
@@ -331,9 +340,9 @@ def choose_k(counts: pd.Series, n_employers: int, forced: int = None) -> int:
 
 
 def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
-    # 1. Identify distinct title seniority signals
+    # 1. Identify builder titles (Engineers, Developers, SDEs, Data Scientists)
     is_core_builder = long["title"].str.contains(
-        r"\b(?:sde|sde-?1|software development engineer|backend|full[- ]?stack|systems? engineer|core developer)\b",
+        r"\b(?:developer|engineer|sde|programmer|scientist|architect)\b",
         case=False,
         regex=True
     )
@@ -363,18 +372,37 @@ def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
         n = int(r["employers"])
         skill_name_lower = esco.labels[j].lower()
 
-        # 2. Assign demand depth via multi-factor heuristic
+        # 2. Multi-factor depth heuristic
         if any(tool in skill_name_lower for tool in APPLY_CENTRIC_SKILLS):
             demand_depth = "apply"
+        elif any(core in skill_name_lower for core in CORE_BUILDER_SKILLS):
+            demand_depth = "build"
         elif r["junior_share"] >= 0.35:
-            # High proportion of entry/intern/trainee roles -> "apply"
             demand_depth = "apply"
-        elif r["core_builder_share"] >= 0.40:
-            # Significant presence of dedicated SDE/Backend roles -> "build"
+        elif r["core_builder_share"] >= 0.25:
             demand_depth = "build"
         else:
-            # Balanced default for general developer postings
             demand_depth = "apply"
+
+        # 3. Market Growth Projections
+        if MOCK_TRENDS:
+            # Anchor trends based on current tech demand
+            if any(h in skill_name_lower for h in ["machine learning", "artificial intelligence", "python", "deep learning", "cloud"]):
+                trend = "rising"
+                mult = rng.uniform(1.35, 1.65)
+            elif any(f in skill_name_lower for f in ["php", "flash", "spreadsheet"]):
+                trend = "fading"
+                mult = rng.uniform(0.65, 0.85)
+            else:
+                trend = rng.choice(["rising", "steady", "steady"])
+                mult = 1.30 if trend == "rising" else 1.05
+
+            est = int(round(n * mult))
+            band = [int(round(est * 0.85)), int(round(est * 1.15))]
+        else:
+            trend = None
+            est = None
+            band = None
 
         item = {
             "skill_id": stable_id(esco.uris[j]),
@@ -383,15 +411,10 @@ def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
             "distinct_employers": n,
             "postings": int(r["postings"]),
             "demand_depth": demand_depth,
-            "trend": None,
-            "trend_2030_estimate": None,
-            "trend_confidence_band": None,
+            "trend": trend,
+            "trend_2030_estimate": est,
+            "trend_confidence_band": band,
         }
-        if MOCK_TRENDS:
-            trend = rng.choice(["rising", "steady", "fading"])
-            est = n * {"rising": 1.5, "steady": 1.0, "fading": 0.7}[trend]
-            item.update(trend=trend, trend_2030_estimate=int(est),
-                        trend_confidence_band=[int(est * .85), int(est * 1.15)])
         out.append(item)
     return out
 

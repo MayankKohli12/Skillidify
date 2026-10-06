@@ -5,10 +5,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
         "distinct_employers": 256,
         "postings": 297,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 395,
+        "trend_confidence_band": [
+            336,
+            454
+        ]
     },
     {
         "skill_id": "esco_bb95ceebf6e29b33",
@@ -16,10 +19,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
         "distinct_employers": 242,
         "postings": 547,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 315,
+        "trend_confidence_band": [
+            268,
+            362
+        ]
     },
     {
         "skill_id": "esco_392c1e6efaa67eb9",
@@ -27,10 +33,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
         "distinct_employers": 236,
         "postings": 892,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 371,
+        "trend_confidence_band": [
+            315,
+            427
+        ]
     },
     {
         "skill_id": "esco_77d8d02df23e9d11",
@@ -39,9 +48,12 @@
         "distinct_employers": 152,
         "postings": 622,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "rising",
+        "trend_2030_estimate": 198,
+        "trend_confidence_band": [
+            168,
+            228
+        ]
     },
     {
         "skill_id": "esco_76ff47a1659721ae",
@@ -49,10 +61,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
         "distinct_employers": 132,
         "postings": 144,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 187,
+        "trend_confidence_band": [
+            159,
+            215
+        ]
     },
     {
         "skill_id": "esco_0c74c9b7dd9b2b82",
@@ -60,10 +75,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01",
         "distinct_employers": 106,
         "postings": 114,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 111,
+        "trend_confidence_band": [
+            94,
+            128
+        ]
     },
     {
         "skill_id": "esco_09bf63bd29119a6a",
@@ -71,10 +89,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787",
         "distinct_employers": 94,
         "postings": 104,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 122,
+        "trend_confidence_band": [
+            104,
+            140
+        ]
     },
     {
         "skill_id": "esco_fb5323c758417392",
@@ -82,10 +103,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2",
         "distinct_employers": 83,
         "postings": 92,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 87,
+        "trend_confidence_band": [
+            74,
+            100
+        ]
     },
     {
         "skill_id": "esco_dc5a0ab4b5a942d0",
@@ -93,10 +117,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a",
         "distinct_employers": 82,
         "postings": 364,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 86,
+        "trend_confidence_band": [
+            73,
+            99
+        ]
     },
     {
         "skill_id": "esco_d7662bce29b54a72",
@@ -104,10 +131,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
         "distinct_employers": 77,
         "postings": 82,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 81,
+        "trend_confidence_band": [
+            69,
+            93
+        ]
     },
     {
         "skill_id": "esco_2277bd7912e41075",
@@ -115,10 +145,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7",
         "distinct_employers": 76,
         "postings": 86,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 99,
+        "trend_confidence_band": [
+            84,
+            114
+        ]
     },
     {
         "skill_id": "esco_e4b44ee664818d8b",
@@ -126,10 +159,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080",
         "distinct_employers": 65,
         "postings": 353,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 99,
+        "trend_confidence_band": [
+            84,
+            114
+        ]
     },
     {
         "skill_id": "esco_f7b6436d07d17c55",
@@ -137,10 +173,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
         "distinct_employers": 64,
         "postings": 69,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 83,
+        "trend_confidence_band": [
+            71,
+            95
+        ]
     },
     {
         "skill_id": "esco_8de95e3c17be9e66",
@@ -148,10 +187,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
         "distinct_employers": 64,
         "postings": 385,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 83,
+        "trend_confidence_band": [
+            71,
+            95
+        ]
     },
     {
         "skill_id": "esco_97cb341652cbb603",
@@ -159,10 +201,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
         "distinct_employers": 63,
         "postings": 423,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 82,
+        "trend_confidence_band": [
+            70,
+            94
+        ]
     },
     {
         "skill_id": "esco_0450f510e40fc128",
@@ -170,10 +215,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f",
         "distinct_employers": 62,
         "postings": 66,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 81,
+        "trend_confidence_band": [
+            69,
+            93
+        ]
     },
     {
         "skill_id": "esco_14638489e2cc509c",
@@ -181,10 +229,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669",
         "distinct_employers": 60,
         "postings": 738,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 78,
+        "trend_confidence_band": [
+            66,
+            90
+        ]
     },
     {
         "skill_id": "esco_d8ac79d6664adc9a",
@@ -192,10 +243,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab",
         "distinct_employers": 55,
         "postings": 60,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 58,
+        "trend_confidence_band": [
+            49,
+            67
+        ]
     },
     {
         "skill_id": "esco_a384dc250c83874c",
@@ -203,10 +257,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0",
         "distinct_employers": 53,
         "postings": 57,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 81,
+        "trend_confidence_band": [
+            69,
+            93
+        ]
     },
     {
         "skill_id": "esco_08f7b33b33c7c609",
@@ -214,10 +271,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
         "distinct_employers": 48,
         "postings": 408,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 50,
+        "trend_confidence_band": [
+            42,
+            57
+        ]
     },
     {
         "skill_id": "esco_daadb7ed606bea63",
@@ -225,10 +285,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/c2999f0c-eb37-4cdf-b9b0-82107b628794",
         "distinct_employers": 47,
         "postings": 52,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 61,
+        "trend_confidence_band": [
+            52,
+            70
+        ]
     },
     {
         "skill_id": "esco_858cf944b8516391",
@@ -236,10 +299,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
         "distinct_employers": 46,
         "postings": 47,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 48,
+        "trend_confidence_band": [
+            41,
+            55
+        ]
     },
     {
         "skill_id": "esco_d01632d4c0786ba6",
@@ -247,10 +313,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/89f6560b-2194-45c9-9ece-d33049a73eef",
         "distinct_employers": 39,
         "postings": 40,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 41,
+        "trend_confidence_band": [
+            35,
+            47
+        ]
     },
     {
         "skill_id": "esco_867e3de098ddb1e4",
@@ -258,10 +327,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
         "distinct_employers": 38,
         "postings": 39,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 40,
+        "trend_confidence_band": [
+            34,
+            46
+        ]
     },
     {
         "skill_id": "esco_db546bce099ad338",
@@ -269,10 +341,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/b5c7e0dc-dda3-4790-a7d1-d6d8023b3089",
         "distinct_employers": 37,
         "postings": 42,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 39,
+        "trend_confidence_band": [
+            33,
+            45
+        ]
     },
     {
         "skill_id": "esco_24b12fb856eb3542",
@@ -280,10 +355,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6",
         "distinct_employers": 34,
         "postings": 417,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 36,
+        "trend_confidence_band": [
+            31,
+            41
+        ]
     },
     {
         "skill_id": "esco_189c7ade46a415fd",
@@ -291,10 +369,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
         "distinct_employers": 34,
         "postings": 37,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 44,
+        "trend_confidence_band": [
+            37,
+            51
+        ]
     },
     {
         "skill_id": "esco_73524c79310564cc",
@@ -302,10 +383,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/1d86f05e-e9cc-40ce-99d8-2b21cc71b16b",
         "distinct_employers": 33,
         "postings": 37,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 35,
+        "trend_confidence_band": [
+            30,
+            40
+        ]
     },
     {
         "skill_id": "esco_7274c007fef358d7",
@@ -313,10 +397,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180",
         "distinct_employers": 32,
         "postings": 34,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 34,
+        "trend_confidence_band": [
+            29,
+            39
+        ]
     },
     {
         "skill_id": "esco_378eba9ea500b79d",
@@ -324,10 +411,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/af7ae54f-4649-4c16-87c7-59ba41d4d57f",
         "distinct_employers": 31,
         "postings": 304,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 33,
+        "trend_confidence_band": [
+            28,
+            38
+        ]
     },
     {
         "skill_id": "esco_c39e21a57c1db503",
@@ -335,10 +425,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4",
         "distinct_employers": 28,
         "postings": 28,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 36,
+        "trend_confidence_band": [
+            31,
+            41
+        ]
     },
     {
         "skill_id": "esco_ab80805884886245",
@@ -347,9 +440,12 @@
         "distinct_employers": 28,
         "postings": 28,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "fading",
+        "trend_2030_estimate": 22,
+        "trend_confidence_band": [
+            19,
+            25
+        ]
     },
     {
         "skill_id": "esco_56ff66f37a58de29",
@@ -357,10 +453,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/94dd823c-148e-4614-a6e8-99249b16357d",
         "distinct_employers": 27,
         "postings": 28,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 35,
+        "trend_confidence_band": [
+            30,
+            40
+        ]
     },
     {
         "skill_id": "esco_55139fd48812fd06",
@@ -368,10 +467,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28",
         "distinct_employers": 26,
         "postings": 31,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 27,
+        "trend_confidence_band": [
+            23,
+            31
+        ]
     },
     {
         "skill_id": "esco_83046bac8de30c3c",
@@ -380,9 +482,12 @@
         "distinct_employers": 23,
         "postings": 23,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "steady",
+        "trend_2030_estimate": 24,
+        "trend_confidence_band": [
+            20,
+            28
+        ]
     },
     {
         "skill_id": "esco_63212c5d60efa27e",
@@ -390,10 +495,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f",
         "distinct_employers": 23,
         "postings": 23,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "fading",
+        "trend_2030_estimate": 17,
+        "trend_confidence_band": [
+            14,
+            20
+        ]
     },
     {
         "skill_id": "esco_4f62161795991bdc",
@@ -401,10 +509,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/de9f85ba-e77f-48fd-8c66-f5ebaf32d655",
         "distinct_employers": 22,
         "postings": 25,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 29,
+        "trend_confidence_band": [
+            25,
+            33
+        ]
     },
     {
         "skill_id": "esco_ad5dbf7b273fad5b",
@@ -412,10 +523,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/02058de6-4b98-449f-8a45-8588b0eb2446",
         "distinct_employers": 21,
         "postings": 23,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 27,
+        "trend_confidence_band": [
+            23,
+            31
+        ]
     },
     {
         "skill_id": "esco_02d18ac54f7c0ea0",
@@ -423,10 +537,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/484d048c-a5d1-46a5-b57f-45b69c0ac552",
         "distinct_employers": 20,
         "postings": 22,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 21,
+        "trend_confidence_band": [
+            18,
+            24
+        ]
     },
     {
         "skill_id": "esco_a99824b6b1629f8b",
@@ -434,10 +551,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/e46291c7-52b9-4174-bd59-178884861038",
         "distinct_employers": 20,
         "postings": 382,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 26,
+        "trend_confidence_band": [
+            22,
+            30
+        ]
     },
     {
         "skill_id": "esco_c7f73e48c619ebf7",
@@ -445,10 +565,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6",
         "distinct_employers": 19,
         "postings": 21,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 25,
+        "trend_confidence_band": [
+            21,
+            29
+        ]
     },
     {
         "skill_id": "esco_2f302b115fc7536b",
@@ -456,10 +579,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/85f46538-ae70-498a-bfbc-b8ddafe96c7d",
         "distinct_employers": 19,
         "postings": 20,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 20,
+        "trend_confidence_band": [
+            17,
+            23
+        ]
     },
     {
         "skill_id": "esco_9171abd0c8a66180",
@@ -467,10 +593,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576",
         "distinct_employers": 17,
         "postings": 17,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 22,
+        "trend_confidence_band": [
+            19,
+            25
+        ]
     },
     {
         "skill_id": "esco_46a3489d1c7cc962",
@@ -478,10 +607,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4",
         "distinct_employers": 15,
         "postings": 15,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 16,
+        "trend_confidence_band": [
+            14,
+            18
+        ]
     },
     {
         "skill_id": "esco_ccf234d8c76443d4",
@@ -489,10 +621,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/9d0d89be-bffa-4393-b6f6-8d05bea49051",
         "distinct_employers": 14,
         "postings": 14,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 15,
+        "trend_confidence_band": [
+            13,
+            17
+        ]
     },
     {
         "skill_id": "esco_b7411a92ddab3723",
@@ -500,10 +635,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93",
         "distinct_employers": 14,
         "postings": 15,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 15,
+        "trend_confidence_band": [
+            13,
+            17
+        ]
     },
     {
         "skill_id": "esco_f9885d450106d88a",
@@ -511,10 +649,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511",
         "distinct_employers": 14,
         "postings": 15,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 15,
+        "trend_confidence_band": [
+            13,
+            17
+        ]
     },
     {
         "skill_id": "esco_d63eb7a4ea48ed8b",
@@ -522,10 +663,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/d0c6d77e-cb25-4770-bf77-2073fc5f7523",
         "distinct_employers": 13,
         "postings": 15,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 17,
+        "trend_confidence_band": [
+            14,
+            20
+        ]
     },
     {
         "skill_id": "esco_eff2e32254dee446",
@@ -534,9 +678,12 @@
         "distinct_employers": 13,
         "postings": 14,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "steady",
+        "trend_2030_estimate": 14,
+        "trend_confidence_band": [
+            12,
+            16
+        ]
     },
     {
         "skill_id": "esco_f8b85f5a48b2f16b",
@@ -544,10 +691,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f1b5800e-b763-4740-9586-3fef30568e81",
         "distinct_employers": 12,
         "postings": 12,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 13,
+        "trend_confidence_band": [
+            11,
+            15
+        ]
     },
     {
         "skill_id": "esco_55199c314f8b3cbb",
@@ -556,9 +706,12 @@
         "distinct_employers": 11,
         "postings": 12,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "steady",
+        "trend_2030_estimate": 12,
+        "trend_confidence_band": [
+            10,
+            14
+        ]
     },
     {
         "skill_id": "esco_32ace6fc21a3b111",
@@ -566,10 +719,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ddc3119d-1d6e-4324-9125-a3380d299ac5",
         "distinct_employers": 10,
         "postings": 11,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 13,
+        "trend_confidence_band": [
+            11,
+            15
+        ]
     },
     {
         "skill_id": "esco_9505fa5b8a656ea8",
@@ -577,10 +733,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333",
         "distinct_employers": 10,
         "postings": 10,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 10,
+        "trend_confidence_band": [
+            8,
+            12
+        ]
     },
     {
         "skill_id": "esco_c9066adbde3d92b8",
@@ -588,10 +747,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7557f0f4-b8bc-4ac0-b91e-222ab1ba744f",
         "distinct_employers": 9,
         "postings": 9,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 12,
+        "trend_confidence_band": [
+            10,
+            14
+        ]
     },
     {
         "skill_id": "esco_4a27f65e3d5b4df3",
@@ -600,9 +762,12 @@
         "distinct_employers": 9,
         "postings": 9,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "steady",
+        "trend_2030_estimate": 9,
+        "trend_confidence_band": [
+            8,
+            10
+        ]
     },
     {
         "skill_id": "esco_dcd003f7501a7f8d",
@@ -610,10 +775,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7369f779-4b71-4aab-8836-48b69c676eec",
         "distinct_employers": 9,
         "postings": 9,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 9,
+        "trend_confidence_band": [
+            8,
+            10
+        ]
     },
     {
         "skill_id": "esco_2efe2ec537afd69e",
@@ -621,10 +789,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
         "distinct_employers": 9,
         "postings": 9,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 9,
+        "trend_confidence_band": [
+            8,
+            10
+        ]
     },
     {
         "skill_id": "esco_68f2b74936ba1e47",
@@ -632,10 +803,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
         "distinct_employers": 8,
         "postings": 8,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 8,
+        "trend_confidence_band": [
+            7,
+            9
+        ]
     },
     {
         "skill_id": "esco_8508922d49f4fee1",
@@ -643,10 +817,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/86d2e2ea-1ba2-4aa6-b465-8a1f9abc81b8",
         "distinct_employers": 8,
         "postings": 8,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 8,
+        "trend_confidence_band": [
+            7,
+            9
+        ]
     },
     {
         "skill_id": "esco_8ef58804f3605034",
@@ -654,10 +831,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f8e3425c-fe44-4ffb-bafe-0e20d91dadf4",
         "distinct_employers": 8,
         "postings": 9,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 8,
+        "trend_confidence_band": [
+            7,
+            9
+        ]
     },
     {
         "skill_id": "esco_2f8fcaba98ca7e95",
@@ -666,9 +846,12 @@
         "distinct_employers": 7,
         "postings": 7,
         "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "rising",
+        "trend_2030_estimate": 9,
+        "trend_confidence_band": [
+            8,
+            10
+        ]
     },
     {
         "skill_id": "esco_96a4b0196c628c30",
@@ -676,10 +859,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c",
         "distinct_employers": 7,
         "postings": 7,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 7,
+        "trend_confidence_band": [
+            6,
+            8
+        ]
     },
     {
         "skill_id": "esco_dba764e2d5399921",
@@ -687,10 +873,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/0b0335f3-0aa1-491e-895e-81fc8774a300",
         "distinct_employers": 6,
         "postings": 6,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 8,
+        "trend_confidence_band": [
+            7,
+            9
+        ]
     },
     {
         "skill_id": "esco_56dfeea2a5e97b53",
@@ -698,10 +887,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/6fa1c2c0-a012-4ca0-9642-e01569ba322c",
         "distinct_employers": 6,
         "postings": 6,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 8,
+        "trend_confidence_band": [
+            7,
+            9
+        ]
     },
     {
         "skill_id": "esco_169017b91bdf19b9",
@@ -710,9 +902,12 @@
         "distinct_employers": 6,
         "postings": 6,
         "demand_depth": "build",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "steady",
+        "trend_2030_estimate": 6,
+        "trend_confidence_band": [
+            5,
+            7
+        ]
     },
     {
         "skill_id": "esco_c5d59949795ec5b0",
@@ -721,9 +916,12 @@
         "distinct_employers": 5,
         "postings": 5,
         "demand_depth": "build",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "trend": "rising",
+        "trend_2030_estimate": 6,
+        "trend_confidence_band": [
+            5,
+            7
+        ]
     },
     {
         "skill_id": "esco_d88f090d0f5cb83d",
@@ -731,10 +929,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/aec4c9bf-9c44-4f9d-99f1-70011cebe1a8",
         "distinct_employers": 5,
         "postings": 5,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 5,
+        "trend_confidence_band": [
+            4,
+            6
+        ]
     },
     {
         "skill_id": "esco_19f9ccd309bf2d77",
@@ -742,10 +943,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f10142ce-d522-49c3-9fd1-054fb63529d4",
         "distinct_employers": 5,
         "postings": 5,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 6,
+        "trend_confidence_band": [
+            5,
+            7
+        ]
     },
     {
         "skill_id": "esco_a35947e9236cb0f6",
@@ -753,10 +957,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/bbd57056-80e0-45bb-a2c1-658ed99a1251",
         "distinct_employers": 5,
         "postings": 5,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 6,
+        "trend_confidence_band": [
+            5,
+            7
+        ]
     },
     {
         "skill_id": "esco_6dc139df01fd93c2",
@@ -764,10 +971,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "rising",
+        "trend_2030_estimate": 5,
+        "trend_confidence_band": [
+            4,
+            6
+        ]
     },
     {
         "skill_id": "esco_898bb8e2dae698fa",
@@ -775,10 +985,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/56a7f561-1d55-43c9-9cd7-36a0a9bc6c50",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 4,
+        "trend_confidence_band": [
+            3,
+            5
+        ]
     },
     {
         "skill_id": "esco_96384cc4320cdd53",
@@ -786,10 +999,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/d7b66759-c40c-44de-9f31-9418f84e10c5",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 4,
+        "trend_confidence_band": [
+            3,
+            5
+        ]
     },
     {
         "skill_id": "esco_dfb0c9fafb8ae791",
@@ -797,10 +1013,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/b8c01891-e3df-4a4b-948d-95b45e1788f5",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 4,
+        "trend_confidence_band": [
+            3,
+            5
+        ]
     },
     {
         "skill_id": "esco_8aa7d9326a09f087",
@@ -808,10 +1027,13 @@
         "esco_uri": "http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 4,
+        "trend_confidence_band": [
+            3,
+            5
+        ]
     },
     {
         "skill_id": "esco_efd78ad7ddeb0625",
@@ -819,9 +1041,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ea412de3-9d7a-4943-8d8c-c6d3c7495d0e",
         "distinct_employers": 4,
         "postings": 5,
-        "demand_depth": "apply",
-        "trend": null,
-        "trend_2030_estimate": null,
-        "trend_confidence_band": null
+        "demand_depth": "build",
+        "trend": "steady",
+        "trend_2030_estimate": 4,
+        "trend_confidence_band": [
+            3,
+            5
+        ]
     }
 ]
