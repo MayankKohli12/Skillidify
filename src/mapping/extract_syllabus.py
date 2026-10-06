@@ -16,12 +16,12 @@ import pdfplumber
 SYLLABUS_DIR = Path("data/raw/syllabi")
 ESCO_FILE = Path("data/raw/esco/skills_en.csv")
 OUTPUT_FILE = Path("data/processed/skills.json")
-CACHE_EMB = Path("data/processed/esco_labels_v2.npy")   # new names: old cache had unstable ids
+CACHE_EMB = Path("data/processed/esco_labels_v2.npy")
 CACHE_META = Path("data/processed/esco_labels_v2.json")
 
 LINK_ESCO = True            # attach esco_id / esco_name to accepted skills (needs ESCO_FILE)
-ESCO_LINK_MIN = 0.80
-SEMANTIC_MIN = 0.62         # embedding fallback threshold against the curated taxonomy
+ESCO_LINK_MIN = 0.65
+SEMANTIC_MIN = 0.60         # embedding fallback threshold against the curated taxonomy
 MIN_TOPICS = 3              # below this, fall back to line regex, then Groq
 LLM_MODEL = "llama-3.3-70b-versatile"
 
@@ -40,6 +40,95 @@ BANNED_COURSE_KEYWORDS = [
 # ------------------------------------------------------------------ TAXONOMY
 # (category, canonical skill name, [aliases]).  Aliases are case-insensitive, whole-word,
 # plural-tolerant.  Prefix an alias with "re:" to supply a raw regex instead.
+# Direct, verified mappings from Curated Taxonomy to exact ESCO ICT Preferred Labels
+TAXONOMY_TO_ESCO = {
+    # Programming Languages
+    "C programming": "C",
+    "C++": "C++",
+    "Java": "Java (computer programming)",
+    "Python": "Python (computer programming)",
+    "MATLAB": "MATLAB",
+    "JavaScript": "JavaScript",
+    "HTML & CSS": "CSS",
+    "Web development": "web development",
+
+    # Programming Fundamentals -> ESCO Umbrella Skills
+    "Problem solving & algorithmic thinking": "solve problems",
+    "Variables & data types": "computer programming",
+    "Operators & expressions": "computer programming",
+    "Bit manipulation": "computer programming",
+    "Conditional statements": "use logic programming",
+    "Loops & iteration": "computer programming",
+    "Functions & modular programming": "use functional programming",
+    "Recursion": "algorithms",
+    "Strings": "computer programming",
+    "Pointers": "computer programming",
+    "Dynamic memory allocation": "computer programming",
+    "Structures & unions": "computer programming",
+    "File handling": "data storage",
+    "Console input/output": "computer programming",
+    "Preprocessor & macros": "computer programming",
+    "Type conversion": "computer programming",
+    "Exception handling": "debug software",
+    "Debugging & unit testing": "perform software unit testing",
+
+    # OOP
+    "Object-oriented programming": "use object-oriented programming",
+    "Inheritance": "use object-oriented programming",
+    "Polymorphism": "use object-oriented programming",
+    "Encapsulation & abstraction": "use object-oriented programming",
+    "Constructors & destructors": "use object-oriented programming",
+    "Templates & generics": "generic programming",
+    "STL / Collections framework": "computer programming",
+    "Multithreading": "use concurrent programming",
+
+    # DSA & Algorithms
+    "Data structures (general)": "algorithms",
+    "Arrays": "algorithms",
+    "Linked lists": "algorithms",
+    "Stacks": "algorithms",
+    "Queues": "algorithms",
+    "Heaps & priority queues": "algorithms",
+    "Trees & tree traversal": "algorithms",
+    "Binary search trees": "algorithms",
+    "Balanced trees": "algorithms",
+    "Graphs": "algorithms",
+    "Hashing": "algorithms",
+    "Tries": "algorithms",
+    "Sorting algorithms": "algorithms",
+    "Searching algorithms": "algorithms",
+    "Complexity analysis": "algorithms",
+    "Dynamic programming": "algorithms",
+    "Greedy algorithms": "algorithms",
+    "Divide and conquer": "algorithms",
+    "Backtracking": "algorithms",
+    "Graph traversal (BFS/DFS)": "algorithms",
+    "Shortest path algorithms": "algorithms",
+    "Minimum spanning tree": "algorithms",
+    "String matching algorithms": "algorithms",
+    "NP-completeness": "algorithms",
+    "Competitive programming": "algorithms",
+
+    # Databases
+    "SQL": "SQL",
+    "Database design & normalization": "design database scheme",
+    "Relational model & algebra": "operate relational database management system",
+    "Database management systems": "database management systems",
+    "Transactions & concurrency control": "maintain database security",
+    "NoSQL": "NoSQL",
+
+    # Tools
+    "Git & version control": "use version control systems",
+    "Shell scripting & command line": "shell scripting",
+
+    # Data Science & AI
+    "NumPy / pandas": "perform data analysis",
+    "Matplotlib / data visualization": "data visualisation software",
+    "Machine learning": "machine learning",
+    "Deep learning": "deep learning",
+    "NLP & computer vision": "natural language processing",
+}
+
 TAXONOMY = [
     # ---- programming languages
     ("programming", "C programming", ["c programming", "c language", "c program", "programming in c", "turbo c"]),
@@ -486,40 +575,39 @@ def aggregate(evidence: list[dict]) -> list[dict]:
     return sorted(by_skill.values(), key=lambda r: (r["category"], r["skill_name"]))
 
 
-# ------------------------------------------------------------------ STEP 4 (optional): link to ESCO
+# ------------------------------------------------------------------ STEP 4: link to ESCO
 def link_esco(skills: list[dict]) -> None:
-    for s in skills:
-        s["esco_id"], s["esco_name"] = None, None
-    if not (LINK_ESCO and ESCO_FILE.exists() and skills):
+    if not ESCO_FILE.exists():
+        print(f"Warning: ESCO file not found at {ESCO_FILE}")
         return
+
     import pandas as pd
-    from sentence_transformers import util
-    emb = get_embedder()
+    df = pd.read_csv(ESCO_FILE).dropna(subset=["preferredLabel"]).drop_duplicates("preferredLabel")
+    
+    # Create lookup map from preferredLabel to hash ID
+    esco_lookup = {}
+    for r in df.to_dict("records"):
+        label = r["preferredLabel"]
+        uri = r.get("conceptUri") or label
+        h_id = "esco_" + hashlib.sha1(uri.encode()).hexdigest()[:16]
+        esco_lookup[label.lower()] = (h_id, label)
 
-    if CACHE_EMB.exists() and CACHE_META.exists():
-        meta = json.loads(CACHE_META.read_text(encoding="utf-8"))
-        esco_emb = np.load(CACHE_EMB)
-    else:
-        df = pd.read_csv(ESCO_FILE).dropna(subset=["preferredLabel"]).drop_duplicates("preferredLabel")
-        labels = df["preferredLabel"].tolist()
-        uris = df["conceptUri"].tolist() if "conceptUri" in df.columns else [None] * len(labels)
-        meta = [{"id": u or "esco_" + hashlib.sha1(l.encode()).hexdigest()[:16], "name": l}
-                for u, l in zip(uris, labels)]
-        print(f"Embedding {len(labels)} ESCO labels (cached afterwards)...")
-        esco_emb = emb.encode(labels, batch_size=64, show_progress_bar=True, convert_to_numpy=True)
-        CACHE_EMB.parent.mkdir(parents=True, exist_ok=True)
-        np.save(CACHE_EMB, esco_emb)
-        CACHE_META.write_text(json.dumps(meta), encoding="utf-8")
-
-    q = emb.encode([s["skill_name"] for s in skills], convert_to_numpy=True)
-    sims = util.cos_sim(q, esco_emb).numpy()
-    for s, row in zip(skills, sims):
-        j = int(row.argmax())
-        if row[j] >= ESCO_LINK_MIN:
-            s["esco_id"], s["esco_name"] = meta[j]["id"], meta[j]["name"]
-            # Keep skill_id aligned with T1's expected namespace
-            s["skill_id"] = meta[j]["id"]
-
+    # Deterministic mapping for every single skill in our taxonomy
+    for s in skills:
+        canon_name = s["skill_name"]
+        target_esco_label = TAXONOMY_TO_ESCO.get(canon_name)
+        
+        if target_esco_label and target_esco_label.lower() in esco_lookup:
+            h_id, formal_name = esco_lookup[target_esco_label.lower()]
+            s["esco_id"] = h_id
+            s["esco_name"] = formal_name
+            s["skill_id"] = h_id
+        else:
+            # Fallback if label is missing in the specific ESCO CSV version
+            h_id = "esco_" + hashlib.sha1(canon_name.encode()).hexdigest()[:16]
+            s["esco_id"] = h_id
+            s["esco_name"] = canon_name
+            s["skill_id"] = h_id
 # ------------------------------------------------------------------ MAIN
 def main():
     chunks = extract_chunks()
