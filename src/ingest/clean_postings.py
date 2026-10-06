@@ -1,263 +1,428 @@
-import pandas as pd
+import argparse
+import warnings
+import hashlib
 import json
+import math
+import random
 import re
 from pathlib import Path
-from rapidfuzz import fuzz
-from sentence_transformers import SentenceTransformer, util
-import torch
-import spacy
-import random
+
 import numpy as np
+import pandas as pd
+from rapidfuzz import fuzz, process
 
-print("Loading Models (MiniLM & spaCy)...")
-embedder = SentenceTransformer('all-MiniLM-L6-v2')
-nlp = spacy.load("en_core_web_sm")
+warnings.filterwarnings("ignore", message="This pattern is interpreted")
 
-
-# --- CONFIGURATION ---
+# ----------------------------------------------------------------- CONFIG
 RAW_JOBS_DIR = Path("data/raw/jobs")
 RAW_ESCO_DIR = Path("data/raw/esco")
 OUTPUT_FILE = Path("data/processed/employer_verified.json")
-SIMILARITY_THRESHOLD = 90.0
 
-# --- CSV COLUMN MAPPING ---
-# Update these to match the exact column names in your Kaggle CSVs
-COL_EMPLOYER = 'company_name' 
-COL_DESCRIPTION = 'job_description'
-COL_EXPERIENCE = 'experience_raw'
+SIMILARITY_THRESHOLD = 90.0   # rapidfuzz ratio for near-duplicate postings
+EMBED_MODEL = "all-MiniLM-L6-v2"   # keep identical to T2
+EMBED_THRESHOLD = 0.72        # was 0.60 - far too permissive
+EMBED_MARGIN = 0.02           # best match must beat 2nd best by this much
+MIN_TECH_SKILLS = 2           # posting must resolve to >= this many tech skills
+MIN_K = 3                     # floor for the distinct-employer threshold
+FRESHER_MAX_YEARS = 1
+MOCK_TRENDS = False           # old code invented trends with random(); off by default
 
-DEPTH_LEXICON = {
-    "Know": ["define", "describe", "identify", "explain", "list", "recognize", "understand", "knowledge"],
-    "Apply": ["apply", "calculate", "demonstrate", "illustrate", "solve", "use", "execute", "perform", "write", "code"],
-    "Build": ["analyze", "create", "design", "develop", "evaluate", "optimize", "build", "implement", "architect"]
+# Canonical column -> candidate source column names (first one found wins)
+COLUMN_ALIASES = {
+    "employer": ["company_name", "employer", "company"],
+    "title": ["job_title", "title"],
+    "skills": ["skills_required", "required_skills", "skills"],
+    "description": ["job_description", "description"],
+    "exp_min": ["experience_min_yrs", "years_experience"],
+    "exp_text": ["experience_raw", "experience_level"],
 }
 
+# ------------------------------------------------------------- PATTERNS
+# \b-anchored so "ai" no longer matches "maintenance", "hr" no longer matches "three"
+TECH_TITLE = re.compile(
+    r"\b(software|developer|programmer|sde|sdet|engineer|engineering|data scientist|"
+    r"data engineer|data analyst|analytics engineer|machine learning|ml|ai|genai|"
+    r"gen ai|nlp|llm|deep learning|computer vision|devops|mlops|sre|backend|"
+    r"back-end|frontend|front-end|full[- ]?stack|python|java|javascript|react|node|"
+    r"android|ios|web|cloud|cyber|security|database|dba|automation)\b",
+    re.I,
+)
+NON_TECH_TITLE = re.compile(
+    r"\b(civil|mechanical|electrical|electronics?|chemical|hr|human resources?|"
+    r"recruit\w*|sales|legal|law|marketing|accountant|accounts?|finance|financial|"
+    r"teacher|faculty|payroll|business analyst|process|operations|supply chain|"
+    r"procurement|commissioning|site|qc|quality control|officer|executive|"
+    r"consultant|content|writer|designer|customer|support|manager|admin\w*|bpo)\b",
+    re.I,
+)
+SENIOR_TITLE = re.compile(
+    r"\b(senior|sr|lead|principal|staff|head|director|vp|architect|chief|expert)\b", re.I
+)
+FRESHER_TEXT = re.compile(
+    r"(^|\b)(0\s*[-–to]+\s*[12]\s*(years?|yrs?)|fresher|entry[\s-]*level|graduate trainee|EN)(\b|$)",
+    re.I,
+)
+PLACEHOLDER_EMPLOYER = re.compile(
+    r"(leading client|client of|\bmnc\b|confidential|undisclosed|stealth|"
+    r"^company$|^client$|^top .*(company|domain|corporate)|^foreign |^reputed |^leading )",
+    re.I,
+)
+EMPLOYER_SUFFIX = re.compile(
+    r"\b(pvt|private|ltd|limited|inc|llc|llp|corp|corporation|co|gmbh|plc)\b\.?", re.I
+)
+
+# Skill strings too vague to mean anything even if ESCO has a lookalike
+GENERIC_SKILLS = {
+    "data", "development", "management", "analysis", "analytical", "analytics",
+    "usage", "training", "research", "focus", "operations", "consulting",
+    "workflow", "monitoring", "scalability", "content", "performance", "sales",
+    "healthcare", "finance", "customer service", "problem solving", "communication",
+    "not available", "na", "n/a", "other", "others", "etc",
+}
+
+# Short aliases -> ESCO preferredLabel (only used if that label exists in the ESCO file)
+ALIASES = {
+    "nlp": "natural language processing",
+    "ml": "machine learning",
+    "dl": "deep learning",
+    "ai": "principles of artificial intelligence",
+    "artificial intelligence": "principles of artificial intelligence",
+    "js": "JavaScript",
+    "node": "Node.js",
+    "nodejs": "Node.js",
+    "postgres": "PostgreSQL",
+    "k8s": "Kubernetes",
+    "dsa": "algorithms",
+    "data structures": "algorithms",
+}
+
+# Fallback ICT filter if digitalSkillsCollection_en.csv is not in data/raw/esco
+ICT_FALLBACK = re.compile(
+    r"\b(python|java|javascript|c\+\+|c#|sql|nosql|html|css|php|scala|rust|golang|"
+    r"programming|software|algorithm|database|data (model|mining|warehous|engineer|science|visuali)|"
+    r"machine learning|deep learning|neural|artificial intelligence|natural language|"
+    r"computer vision|cloud|devops|docker|kubernetes|git|linux|unix|network|cyber|"
+    r"security|api|web|framework|debug|test|big data|hadoop|spark|etl|tableau|"
+    r"ict|computer|coding|agile|scrum)\b",
+    re.I,
+)
+
+# Skills where entry-level market demand is practically always "apply" (tool usage, querying, operational workflows)
+APPLY_CENTRIC_SKILLS = {
+    "git", "version control", "linux", "unix", "sql", "html & css", "html", "css",
+    "jira", "docker", "postman", "rest api", "unit test", "debugging", "shell script",
+    "bash", "command line", "agile", "scrum", "sdlc", "ci/cd"
+}
+
+# ------------------------------------------------------------ HELPERS
+def norm(s: str) -> str:
+    s = re.sub(r"\s+", " ", str(s).lower().strip())
+    return s.strip(" .;:-")
+
+
+def strip_paren(s: str) -> str:
+    return norm(re.sub(r"\(.*?\)", "", s))
+
+
+def clean_employer(name: str) -> str:
+    n = EMPLOYER_SUFFIX.sub("", str(name).lower())
+    n = re.sub(r"[^a-z0-9& ]+", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def stable_id(uri_or_label: str) -> str:
+    return "esco_" + hashlib.sha1(uri_or_label.encode()).hexdigest()[:16]
+
+
+# --------------------------------------------------------------- STEP 1
 def load_raw_data() -> pd.DataFrame:
-    """Step 1: Load raw CSV postings into a dataframe."""
-    csv_files = list(RAW_JOBS_DIR.glob("*.csv"))
-    if not csv_files:
-        print(f"No CSV files found in {RAW_JOBS_DIR}")
-        return pd.DataFrame()
-        
-    df_list = []
-    for file in csv_files:
-        print(f"Loading {file.name}...")
-        # Handle potential encoding issues common in Kaggle datasets
-        df = pd.read_csv(file, encoding='utf-8', on_bad_lines='skip')
-        df_list.append(df)
-            
-    df = pd.concat(df_list, ignore_index=True)
-    print(f"Loaded {len(df)} total raw postings.")
+    files = sorted(RAW_JOBS_DIR.glob("*.csv"))
+    if not files:
+        raise SystemExit(f"No CSV files in {RAW_JOBS_DIR}")
+    frames = []
+    for f in files:
+        raw = pd.read_csv(f, encoding="utf-8", on_bad_lines="skip")
+        out = pd.DataFrame(index=raw.index)
+        for canon, candidates in COLUMN_ALIASES.items():
+            src = next((c for c in candidates if c in raw.columns), None)
+            out[canon] = raw[src] if src else np.nan
+        out["exp_min"] = pd.to_numeric(out["exp_min"], errors="coerce")
+        out["source"] = f.name
+        print(f"Loaded {f.name}: {len(out)} rows")
+        frames.append(out)
+    df = pd.concat(frames, ignore_index=True)
+    for c in ["employer", "title", "skills", "description", "exp_text"]:
+        df[c] = df[c].fillna("").astype(str)
+    print(f"Total raw postings: {len(df)}")
     return df
 
+
+# --------------------------------------------------------------- STEP 2
+def clean_employers(df: pd.DataFrame) -> pd.DataFrame:
+    placeholder = df["employer"].str.contains(PLACEHOLDER_EMPLOYER) | (df["employer"].str.strip() == "")
+    df = df[~placeholder].copy()
+    df["employer_key"] = df["employer"].map(clean_employer)
+    df = df[df["employer_key"] != ""]
+    print(f"After dropping placeholder employers: {len(df)} "
+          f"({df['employer_key'].nunique()} distinct employers)")
+    return df
+
+
+# --------------------------------------------------------------- STEP 3
 def deduplicate_postings(df: pd.DataFrame) -> pd.DataFrame:
-    """Step 2: Remove near-duplicate postings using rapidfuzz."""
-    if COL_EMPLOYER not in df.columns or COL_DESCRIPTION not in df.columns:
-        print(f"Error: Missing columns for deduplication. Check your column names.")
-        return df
+    """
+    Descriptions in the Indian dataset are truncated to ~90 chars, so body text alone would
+    wrongly merge different roles. Fingerprint = title + sorted skills + description.
+    """
+    def fingerprint(r):
+        skills = ",".join(sorted(norm(s) for s in r["skills"].split(",")))
+        return f"{norm(r['title'])} | {skills} | {norm(r['description'])}"
 
-    unique_indices = []
-    df[COL_DESCRIPTION] = df[COL_DESCRIPTION].astype(str)
-    
-    for employer, group in df.groupby(COL_EMPLOYER):
-        group_indices = group.index.tolist()
-        kept_for_employer = []
-        
-        for idx in group_indices:
-            text = df.loc[idx, COL_DESCRIPTION]
-            is_duplicate = False
-            
-            for kept_idx in kept_for_employer:
-                kept_text = df.loc[kept_idx, COL_DESCRIPTION]
-                similarity = fuzz.ratio(text, kept_text)
-                if similarity >= SIMILARITY_THRESHOLD:
-                    is_duplicate = True
-                    break
-                    
-            if not is_duplicate:
-                kept_for_employer.append(idx)
-                
-        unique_indices.extend(kept_for_employer)
-        
-    df_deduped = df.loc[unique_indices].copy()
-    print(f"Postings after deduplication: {len(df_deduped)}")
-    return df_deduped
-
-def filter_fresher_roles(df: pd.DataFrame) -> pd.DataFrame:
-    """Step 3: Filter to fresher-level roles using numeric columns instead of regex."""
-    
-    # We can use the pre-parsed columns in your specific Kaggle dataset
-    if 'experience_min_yrs' in df.columns:
-        # Fill missing numeric values with a high number so they don't accidentally pass
-        mask = df['experience_min_yrs'].fillna(99) <= 1
-    elif 'is_fresher_friendly' in df.columns:
-        # Fallback to the boolean flag if min_yrs is missing
-        mask = df['is_fresher_friendly'] == True
-    else:
-        # Fallback to safe regex if dataset changes
-        fresher_pattern = r'0-1\s*years?|fresher|entry\s*level|0-2\s*yrs?'
-        mask = df[COL_EXPERIENCE].fillna('').astype(str).str.contains(
-            fresher_pattern, flags=re.IGNORECASE, regex=True
-        )
-    
-    df_freshers = df[mask].copy()
-    print(f"Postings after fresher filter: {len(df_freshers)}")
-    return df_freshers
-
-def filter_tech_roles(df: pd.DataFrame) -> pd.DataFrame:
-    """Step 3.5: Filter out non-tech jobs (law, management, civil) by checking the job title."""
-    if 'job_title' not in df.columns:
-        print("Warning: 'job_title' column not found. Skipping tech role filter.")
-        return df
-
-    # Keywords strongly associated with CSE/IT roles
-    tech_pattern = re.compile(
-        r'software|developer|programmer|engineer|data|analyst|scientist|'
-        r'cloud|web|frontend|backend|fullstack|sde|ai|ml|security|network|'
-        r'devops|architect|machine learning', 
-        re.IGNORECASE
-    )
-    
-    # Explicitly ban non-CSE engineering and corporate filler
-    non_tech_pattern = re.compile(
-        r'civil|mechanical|electrical|hr|human resources|sales|legal|law|'
-        r'marketing|account|finance|manager|teacher|faculty', 
-        re.IGNORECASE
-    )
-
-    titles = df['job_title'].fillna('').astype(str)
-    
-    # Keep the row only if it has a tech keyword AND does not have a banned keyword
-    is_tech = titles.apply(lambda x: bool(tech_pattern.search(x)) and not bool(non_tech_pattern.search(x)))
-    
-    df_tech = df[is_tech].copy()
-    print(f"Postings after tech-only filter: {len(df_tech)}")
-    return df_tech
-
-def load_esco_skills() -> list:
-    """Step 4a: Load the ESCO vocabulary."""
-    esco_file = RAW_ESCO_DIR / "skills_en.csv"
-    if not esco_file.exists():
-        print(f"Warning: ESCO file not found at {esco_file}. Using dummy skills for test.")
-        return ["python programming", "data analysis", "machine learning", "cloud architecture"]
-        
-    df_esco = pd.read_csv(esco_file)
-    # ESCO's default column for the skill name is 'preferredLabel'
-    return df_esco['preferredLabel'].dropna().unique().tolist()
-
-def determine_depth(text: str) -> str:
-    """Extracts the governing verb from the job requirement and maps to Know/Apply/Build."""
-    doc = nlp(text.lower())
-    
-    # 1. Look for explicit verbs first
-    governing_verb = None
-    for token in doc:
-        if token.pos_ == "VERB":
-            governing_verb = token.lemma_
-            break
-            
-    # 2. If no verb, check if noun implies building (common in Kaggle 'skills_required' columns)
-    if not governing_verb:
-        for token in doc:
-            if token.lemma_ in ["development", "architecture", "design", "creation"]:
-                return "Build"
-            if token.lemma_ in ["analysis", "testing", "programming"]:
-                return "Apply"
-        return "Apply" # Default for raw tool names (e.g., "Python") in job ads
-        
-    # 3. Match verb to lexicon
-    for depth, verbs in DEPTH_LEXICON.items():
-        if governing_verb in verbs:
-            return depth
-            
-    return "Apply" # Fallback
-
-def map_skills_and_count_employers(df: pd.DataFrame, esco_skills: list, threshold_k: int = 3) -> list:
-    print(f"Embedding {len(esco_skills)} ESCO skills (this takes ~30-60 seconds)...")
-    esco_embeddings = embedder.encode(esco_skills, convert_to_tensor=True)
-    
-    # Track both employers and the highest depth requested
-    employer_data = {skill: {"employers": set(), "depths": []} for skill in esco_skills}
-    
-    col_to_use = 'skills_required' if 'skills_required' in df.columns else 'required_skills'
-    
-    for _, row in df.iterrows():
-        employer = str(row[COL_EMPLOYER]).strip()
-        raw_skills = str(row.get(col_to_use, "")).split(',')
-        
-        raw_skills = [s.strip() for s in raw_skills if len(s.strip()) > 2]
-        if not raw_skills:
+    df = df.copy()
+    df["_fp"] = df.apply(fingerprint, axis=1)
+    keep = []
+    for _, g in df.groupby("employer_key", sort=False):
+        idx = g.index.to_numpy()
+        if len(idx) == 1:
+            keep.extend(idx)
             continue
-            
-        raw_embeddings = embedder.encode(raw_skills, convert_to_tensor=True)
-        cos_scores = util.cos_sim(raw_embeddings, esco_embeddings)
-        max_scores, max_idxs = torch.max(cos_scores, dim=1)
-        
-        for i, score in enumerate(max_scores):
-            if score.item() > 0.6:  
-                matched_esco_skill = esco_skills[max_idxs[i].item()]
-                employer_data[matched_esco_skill]["employers"].add(employer)
-                # Calculate depth based on the raw phrase the employer used
-                employer_data[matched_esco_skill]["depths"].append(determine_depth(raw_skills[i]))
+        sim = process.cdist(g["_fp"].tolist(), g["_fp"].tolist(),
+                            scorer=fuzz.ratio, dtype=np.uint8, workers=-1)
+        dropped = np.zeros(len(idx), dtype=bool)
+        for i in range(len(idx)):
+            if dropped[i]:
+                continue
+            keep.append(idx[i])
+            dropped |= (sim[i] >= SIMILARITY_THRESHOLD) & (np.arange(len(idx)) > i)
+    out = df.loc[keep].drop(columns="_fp")
+    print(f"After deduplication: {len(out)}")
+    return out
 
-    verified_skills = []
-    # Hierarchy to find the max depth requested
-    depth_rank = {"Know": 1, "Apply": 2, "Build": 3}
+
+# --------------------------------------------------------------- STEP 4
+def filter_fresher_roles(df: pd.DataFrame) -> pd.DataFrame:
+    numeric = df["exp_min"].le(FRESHER_MAX_YEARS)
+    text = df["exp_text"].str.contains(FRESHER_TEXT)
+    mask = np.where(df["exp_min"].notna(), numeric, text)  # numeric wins when present
+    out = df[mask].copy()
+    print(f"After fresher filter: {len(out)}")
+    return out
+
+
+# ----------------------------------------------------------- STEP 4.5
+def filter_coding_roles(df: pd.DataFrame) -> pd.DataFrame:
+    t = df["title"]
+    keep = (t.str.contains(TECH_TITLE)
+            & ~t.str.contains(NON_TECH_TITLE)
+            & ~t.str.contains(SENIOR_TITLE))   # "Senior ..." with exp_min<=1 is scrape noise
+    out = df[keep].copy()
+    print(f"After coding-role title filter: {len(out)}")
+    return out
+
+
+# --------------------------------------------------------------- STEP 5
+class EscoIndex:
+    def __init__(self):
+        f = RAW_ESCO_DIR / "skills_en.csv"
+        if not f.exists():
+            raise SystemExit(f"ESCO file missing: {f}")
+        esco = pd.read_csv(f)
+        esco = esco.dropna(subset=["preferredLabel"])
+        esco["conceptUri"] = esco.get("conceptUri", esco["preferredLabel"])
+
+        dig = RAW_ESCO_DIR / "digitalSkillsCollection_en.csv"
+        if dig.exists():
+            uris = set(pd.read_csv(dig)["conceptUri"])
+            esco = esco[esco["conceptUri"].isin(uris)]
+            print(f"ESCO: {len(esco)} digital/ICT skills (digitalSkillsCollection)")
+        else:
+            blob = esco["preferredLabel"] + " " + esco.get("altLabels", "").fillna("")
+            esco = esco[blob.str.contains(ICT_FALLBACK)]
+            print(f"ESCO: {len(esco)} skills after keyword ICT filter "
+                  f"(put digitalSkillsCollection_en.csv in {RAW_ESCO_DIR} for a cleaner cut)")
+
+        self.labels = esco["preferredLabel"].tolist()
+        self.uris = esco["conceptUri"].tolist()
+        self.lookup = {}  # normalised surface form -> index into labels
+        for i, (pref, alts) in enumerate(zip(self.labels, esco.get("altLabels", pd.Series([""] * len(esco))))):
+            forms = [pref, strip_paren(pref)]
+            if isinstance(alts, str):
+                forms += alts.split("\n")
+            for form in forms:
+                self.lookup.setdefault(norm(form), i)   # first writer wins
+        for alias, target in ALIASES.items():
+            j = self.lookup.get(norm(target))
+            if j is not None:
+                self.lookup[norm(alias)] = j
+
+    def exact(self, raw: str):
+        return self.lookup.get(norm(raw))
+
+
+def map_unique_skills(raw_skills: list, esco: EscoIndex, use_embed: bool) -> dict:
+    """raw skill string -> (esco_index, match_type). Works on UNIQUE strings only."""
+    mapping = {}
+    todo = []
+    for raw in raw_skills:
+        n = norm(raw)
+        if len(n) < 2 or n in GENERIC_SKILLS:
+            continue
+        j = esco.exact(n)
+        if j is not None:
+            mapping[raw] = (j, "exact")
+        else:
+            todo.append(raw)
+    print(f"Skill strings: {len(raw_skills)} unique, {len(mapping)} exact/alias matched, "
+          f"{len(todo)} need embedding" + ("" if use_embed else " (skipped: --no-embed)"))
+
+    if use_embed and todo:
+        from sentence_transformers import SentenceTransformer
+        model = SentenceTransformer(EMBED_MODEL)
+        E = model.encode(esco.labels, normalize_embeddings=True, convert_to_numpy=True,
+                         show_progress_bar=True, batch_size=128)
+        for s in range(0, len(todo), 2000):
+            chunk = todo[s:s + 2000]
+            Q = model.encode(chunk, normalize_embeddings=True, convert_to_numpy=True, batch_size=128)
+            sims = Q @ E.T
+            top2 = np.argpartition(-sims, 1, axis=1)[:, :2]
+            for r, raw in enumerate(chunk):
+                a, b = top2[r]
+                if sims[r, a] < sims[r, b]:
+                    a, b = b, a
+                if sims[r, a] >= EMBED_THRESHOLD and sims[r, a] - sims[r, b] >= EMBED_MARGIN:
+                    mapping[raw] = (int(a), "embed")
+    return mapping
+
+
+def extract_skills(df: pd.DataFrame, esco: EscoIndex, use_embed: bool) -> pd.DataFrame:
+    """Returns long dataframe: one row per (posting, ESCO skill)."""
+    df = df.copy()
+    df["skill_list"] = df["skills"].map(lambda s: [x.strip() for x in s.split(",") if x.strip()])
+    uniq = sorted({s for lst in df["skill_list"] for s in lst})
+    mapping = map_unique_skills(uniq, esco, use_embed)
+
+    rows = []
+    for pid, emp, title, lst in zip(df.index, df["employer_key"], df["title"], df["skill_list"]):
+        seen = {}
+        for raw in lst:
+            if raw in mapping:
+                j, how = mapping[raw]
+                seen.setdefault(j, how)
+        if len(seen) >= MIN_TECH_SKILLS:       # tech gate
+            rows += [(pid, emp, title, j, how) for j, how in seen.items()]
+    long = pd.DataFrame(rows, columns=["posting", "employer", "title", "esco_idx", "how"])
+    print(f"Postings passing tech gate (>= {MIN_TECH_SKILLS} tech skills): {long['posting'].nunique()}")
+    return long
+
+
+# --------------------------------------------------------------- STEP 6
+def choose_k(counts: pd.Series, n_employers: int, forced: int = None) -> int:
+    print("\nDistinct-employer distribution per skill:")
+    print(counts.describe(percentiles=[.5, .75, .9, .95]).round(1).to_string())
+    print("\n  k : skills surviving")
+    for k in (1, 2, 3, 5, 8, 10, 15, 20, 30, 50):
+        print(f" {k:>3}: {(counts >= k).sum()}")
+    if forced:
+        return forced
+    # skill must be asked for by at least ~0.5% of employers in the sample, never below MIN_K
+    k = max(MIN_K, math.ceil(0.005 * n_employers))
+    print(f"\nAuto k = max({MIN_K}, ceil(0.5% x {n_employers} employers)) = {k}")
+    return k
+
+
+def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
+    # 1. Identify distinct title seniority signals
+    is_core_builder = long["title"].str.contains(
+        r"\b(?:sde|sde-?1|software development engineer|backend|full[- ]?stack|systems? engineer|core developer)\b",
+        case=False,
+        regex=True
+    )
+    is_junior_or_trainee = long["title"].str.contains(
+        r"\b(?:trainee|intern|internship|graduate|entry|junior|jr|associate|support|qa|tester)\b",
+        case=False,
+        regex=True
+    )
     
-    for skill, data in employer_data.items():
-        count = len(data["employers"])
-        if count >= threshold_k:
-            
-            # Determine the maximum depth requested by the market for this skill
-            max_depth = "Apply"
-            if data["depths"]:
-                max_depth = max(data["depths"], key=lambda d: depth_rank[d])
-            
-            # Generate realistic mock trends for T3 and T5
-            # Highly requested skills are more likely to be rising
-            if count > 50:
-                trend = random.choices(["rising", "steady"], weights=[0.8, 0.2])[0]
-                est_2030 = count * random.uniform(1.2, 2.5)
-            else:
-                trend = random.choices(["rising", "steady", "fading"], weights=[0.3, 0.5, 0.2])[0]
-                est_2030 = count * (random.uniform(1.1, 1.5) if trend == "rising" else random.uniform(0.5, 0.9) if trend == "fading" else random.uniform(0.9, 1.1))
-                
-            verified_skills.append({
-                "skill_id": f"esco_{abs(hash(skill))}", 
-                "skill_name": skill,
-                "distinct_employers": count,
-                "demand_depth": max_depth.lower(), 
-                "trend": trend,
-                "trend_2030_estimate": int(est_2030),
-                "trend_confidence_band": [int(est_2030 * 0.85), int(est_2030 * 1.15)]
-            })
-            
-    verified_skills.sort(key=lambda x: x['distinct_employers'], reverse=True)
-    return verified_skills
+    long = long.assign(
+        core_builder=is_core_builder,
+        junior_role=is_junior_or_trainee
+    )
+    
+    g = long.groupby("esco_idx")
+    stats = pd.DataFrame({
+        "employers": g["employer"].nunique(),
+        "postings": g["posting"].nunique(),
+        "core_builder_share": g["core_builder"].mean(),
+        "junior_share": g["junior_role"].mean(),
+    })
+    stats = stats[stats["employers"] >= k].sort_values("employers", ascending=False)
 
+    rng = random.Random(42)
+    out = []
+    for j, r in stats.iterrows():
+        n = int(r["employers"])
+        skill_name_lower = esco.labels[j].lower()
+
+        # 2. Assign demand depth via multi-factor heuristic
+        if any(tool in skill_name_lower for tool in APPLY_CENTRIC_SKILLS):
+            demand_depth = "apply"
+        elif r["junior_share"] >= 0.35:
+            # High proportion of entry/intern/trainee roles -> "apply"
+            demand_depth = "apply"
+        elif r["core_builder_share"] >= 0.40:
+            # Significant presence of dedicated SDE/Backend roles -> "build"
+            demand_depth = "build"
+        else:
+            # Balanced default for general developer postings
+            demand_depth = "apply"
+
+        item = {
+            "skill_id": stable_id(esco.uris[j]),
+            "skill_name": esco.labels[j],
+            "esco_uri": esco.uris[j],
+            "distinct_employers": n,
+            "postings": int(r["postings"]),
+            "demand_depth": demand_depth,
+            "trend": None,
+            "trend_2030_estimate": None,
+            "trend_confidence_band": None,
+        }
+        if MOCK_TRENDS:
+            trend = rng.choice(["rising", "steady", "fading"])
+            est = n * {"rising": 1.5, "steady": 1.0, "fading": 0.7}[trend]
+            item.update(trend=trend, trend_2030_estimate=int(est),
+                        trend_confidence_band=[int(est * .85), int(est * 1.15)])
+        out.append(item)
+    return out
+
+# ----------------------------------------------------------------- MAIN
 def main():
-    df_raw = load_raw_data()
-    if df_raw.empty: return
-        
-    df_deduped = deduplicate_postings(df_raw)
-    df_freshers = filter_fresher_roles(df_deduped)
-    
-    # ADD THE NEW FILTER HERE
-    df_tech = filter_tech_roles(df_freshers)
-    
-    esco_list = load_esco_skills()
-    
-    # Pass df_tech instead of df_freshers
-    final_skills = map_skills_and_count_employers(df_tech, esco_list, threshold_k=5)
-    
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--k", type=int, default=None, help="force distinct-employer threshold")
+    ap.add_argument("--no-embed", action="store_true", help="exact/alias matching only")
+    args = ap.parse_args()
+
+    df = load_raw_data()
+    df = clean_employers(df)
+    df = deduplicate_postings(df)
+    df = filter_fresher_roles(df)
+    df = filter_coding_roles(df)
+
+    esco = EscoIndex()
+    long = extract_skills(df, esco, use_embed=not args.no_embed)
+    if long.empty:
+        raise SystemExit("No postings survived filtering - check column names / ESCO files.")
+
+    counts = long.groupby("esco_idx")["employer"].nunique()
+    k = choose_k(counts, long["employer"].nunique(), args.k)
+    result = build_output(long, esco, k)
+
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_skills, f, indent=4)
-        
-    print(f"\nSuccess! Wrote top skills to {OUTPUT_FILE}")
-    print("Top 5 skills demanded by employers:")
-    for skill in final_skills[:5]:
-        print(f" - {skill['skill_name']} ({skill['distinct_employers']} employers)")
+    OUTPUT_FILE.write_text(json.dumps(result, indent=4), encoding="utf-8")
+    print(f"\nWrote {len(result)} skills (k={k}) to {OUTPUT_FILE}")
+    for s in result[:15]:
+        print(f" - {s['skill_name']} ({s['distinct_employers']} employers)")
+
 
 if __name__ == "__main__":
     main()
