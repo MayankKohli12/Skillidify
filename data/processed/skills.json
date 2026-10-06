@@ -1,6 +1,6 @@
 [
   {
-    "skill_id": "cs_complexity_analysis",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Complexity analysis",
     "category": "algorithms",
     "depth": "build",
@@ -21,11 +21,11 @@
       "Bubble sort and complexity analysis",
       "Merging arrays & merge sort and complexity analysis"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_divide_and_conquer",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Divide and conquer",
     "category": "algorithms",
     "depth": "build",
@@ -42,11 +42,11 @@
     "evidence": [
       "Implementation of Quick Sort using Divide and Conquer"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_dynamic_programming",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Dynamic programming",
     "category": "algorithms",
     "depth": "build",
@@ -63,11 +63,11 @@
     "evidence": [
       "Implementation of Knapsack Problem using Greedy Algorithm"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_graph_traversal_bfs_dfs",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Graph traversal (BFS/DFS)",
     "category": "algorithms",
     "depth": "apply",
@@ -85,11 +85,11 @@
       "Implementation of Graph Traversal Techniques (BFS & DFS)",
       "Objective: Implement topological sorting using DFS and Kahn’s Algorithm"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_greedy_algorithms",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Greedy algorithms",
     "category": "algorithms",
     "depth": "build",
@@ -107,11 +107,11 @@
       "Greedy Algorithm",
       "Implementation of Knapsack Problem using Greedy Algorithm"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_searching_algorithms",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Searching algorithms",
     "category": "algorithms",
     "depth": "build",
@@ -133,11 +133,11 @@
       "Searching a linked list",
       "Searching"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_shortest_path_algorithms",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Shortest path algorithms",
     "category": "algorithms",
     "depth": "build",
@@ -157,11 +157,11 @@
       "Shortest Path algorithms: Dijkstra's Algorithm",
       "Implementation of Dijkstra’s Algorithm for Shortest Path"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_sorting_algorithms",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Sorting algorithms",
     "category": "algorithms",
     "depth": "build",
@@ -182,11 +182,11 @@
       "Merging arrays & merge sort and complexity analysis",
       "Heap & heap sort"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+    "skill_id": "esco_c0513b1257e82203",
     "skill_name": "Machine learning",
     "category": "data_science",
     "depth": "build",
@@ -206,11 +206,11 @@
       "Introduction to Artificial Intelligence and Machine Learning Concepts",
       "Understanding Azure Machine Learning"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+    "esco_id": "esco_c0513b1257e82203",
     "esco_name": "machine learning"
   },
   {
-    "skill_id": "cs_matplotlib_data_visualization",
+    "skill_id": "esco_8de95e3c17be9e66",
     "skill_name": "Matplotlib / data visualization",
     "category": "data_science",
     "depth": "know",
@@ -227,11 +227,11 @@
     "evidence": [
       "NumPy & Matplotlib for Data Analysis"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_8de95e3c17be9e66",
+    "esco_name": "data visualisation software"
   },
   {
-    "skill_id": "cs_nlp_computer_vision",
+    "skill_id": "esco_dc5a0ab4b5a942d0",
     "skill_name": "NLP & computer vision",
     "category": "data_science",
     "depth": "know",
@@ -249,11 +249,11 @@
       "Natural Language Processing and Azure AI Tools",
       "Understanding Natural Language Processing and Speech AI Concepts with Microsoft Tools"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_dc5a0ab4b5a942d0",
+    "esco_name": "natural language processing"
   },
   {
-    "skill_id": "cs_numpy_pandas",
+    "skill_id": "esco_444c98e181d3a73a",
     "skill_name": "NumPy / pandas",
     "category": "data_science",
     "depth": "know",
@@ -270,11 +270,11 @@
     "evidence": [
       "Pandas"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_444c98e181d3a73a",
+    "esco_name": "perform data analysis"
   },
   {
-    "skill_id": "cs_database_design_normalization",
+    "skill_id": "esco_f9885d450106d88a",
     "skill_name": "Database design & normalization",
     "category": "database",
     "depth": "build",
@@ -296,11 +296,11 @@
       "Functional Dependencies: definition",
       "Full Functional Dependency (FFD)"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f9885d450106d88a",
+    "esco_name": "design database scheme"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "skill_id": "esco_858cf944b8516391",
     "skill_name": "Database management systems",
     "category": "database",
     "depth": "know",
@@ -318,11 +318,11 @@
       "DBMS definition",
       "Advantages and Disadvantages of DBMS"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "esco_id": "esco_858cf944b8516391",
     "esco_name": "database management systems"
   },
   {
-    "skill_id": "cs_relational_model_algebra",
+    "skill_id": "esco_dcd003f7501a7f8d",
     "skill_name": "Relational model & algebra",
     "category": "database",
     "depth": "apply",
@@ -340,11 +340,11 @@
       "Relational Algebra: Introduction",
       "Relational Algebra: Additional operators"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_dcd003f7501a7f8d",
+    "esco_name": "operate relational database management system"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_id": "esco_77d8d02df23e9d11",
     "skill_name": "SQL",
     "category": "database",
     "depth": "build",
@@ -365,11 +365,11 @@
       "Join Dependency (JD)",
       "Threats – SQL Injection"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "esco_id": "esco_77d8d02df23e9d11",
     "esco_name": "SQL"
   },
   {
-    "skill_id": "cs_transactions_concurrency_control",
+    "skill_id": "esco_0111bf21425701fe",
     "skill_name": "Transactions & concurrency control",
     "category": "database",
     "depth": "apply",
@@ -390,11 +390,11 @@
       "Optimistic concurrency control",
       "Introduction to Database Recovery"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_0111bf21425701fe",
+    "esco_name": "maintain database security"
   },
   {
-    "skill_id": "cs_arrays",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Arrays",
     "category": "dsa",
     "depth": "build",
@@ -417,11 +417,11 @@
       "Pointers and Arrays",
       "passing array as pointer"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_balanced_trees",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Balanced trees",
     "category": "dsa",
     "depth": "build",
@@ -439,11 +439,11 @@
       "AVL Search trees",
       "Implementation of AVL Trees"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_binary_search_trees",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Binary search trees",
     "category": "dsa",
     "depth": "build",
@@ -462,11 +462,11 @@
       "Inserting & Deleting in Binary Search Tree",
       "Implementation of Binary Search Tree (BST) Operations"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_data_structures_general",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Data structures (general)",
     "category": "dsa",
     "depth": "build",
@@ -486,11 +486,11 @@
       "Implementation of Heap Sort using Heap Data Structure",
       "Relational Data Structure: Keys"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_graphs",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Graphs",
     "category": "dsa",
     "depth": "build",
@@ -511,11 +511,11 @@
       "Concepts: Weighted Graphs",
       "Implementation of Topological Sorting for Directed Graphs"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_hashing",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Hashing",
     "category": "dsa",
     "depth": "build",
@@ -534,11 +534,11 @@
       "Collision Resolution Strategies",
       "Implementation of Hash Table and Collision Resolution Techniques"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_heaps_priority_queues",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Heaps & priority queues",
     "category": "dsa",
     "depth": "build",
@@ -558,11 +558,11 @@
       "Implementation of Heap Sort using Heap Data Structure",
       "Priority Queues"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_linked_lists",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Linked lists",
     "category": "dsa",
     "depth": "build",
@@ -583,11 +583,11 @@
       "Header Linked List",
       "Operations on doubly linked list"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_queues",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Queues",
     "category": "dsa",
     "depth": "build",
@@ -608,11 +608,11 @@
       "Priority Queue",
       "Stack & Queue"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_stacks",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Stacks",
     "category": "dsa",
     "depth": "build",
@@ -631,11 +631,11 @@
       "Traversal Algorithms using stacks",
       "Stack & Queue"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_trees_tree_traversal",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Trees & tree traversal",
     "category": "dsa",
     "depth": "build",
@@ -656,11 +656,11 @@
       "AVL Search trees",
       "B Tree"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_constructors_destructors",
+    "skill_id": "esco_68f2b74936ba1e47",
     "skill_name": "Constructors & destructors",
     "category": "oop",
     "depth": "build",
@@ -677,11 +677,11 @@
     "evidence": [
       "Java Constructor"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_68f2b74936ba1e47",
+    "esco_name": "use object-oriented programming"
   },
   {
-    "skill_id": "cs_encapsulation_abstraction",
+    "skill_id": "esco_68f2b74936ba1e47",
     "skill_name": "Encapsulation & abstraction",
     "category": "oop",
     "depth": "build",
@@ -701,11 +701,11 @@
       "Abstract Class",
       "Degrees of data abstraction"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_68f2b74936ba1e47",
+    "esco_name": "use object-oriented programming"
   },
   {
-    "skill_id": "cs_inheritance",
+    "skill_id": "esco_68f2b74936ba1e47",
     "skill_name": "Inheritance",
     "category": "oop",
     "depth": "apply",
@@ -722,11 +722,11 @@
     "evidence": [
       "Inheritance"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_68f2b74936ba1e47",
+    "esco_name": "use object-oriented programming"
   },
   {
-    "skill_id": "cs_multithreading",
+    "skill_id": "esco_7aa4a913fe824787",
     "skill_name": "Multithreading",
     "category": "oop",
     "depth": "build",
@@ -744,11 +744,11 @@
       "Write a java program using thread synchronization in multithreading",
       "Multithreaded Programming"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_7aa4a913fe824787",
+    "esco_name": "use concurrent programming"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+    "skill_id": "esco_68f2b74936ba1e47",
     "skill_name": "Object-oriented programming",
     "category": "oop",
     "depth": "build",
@@ -769,11 +769,11 @@
       "Wrapper Class",
       "Class Template"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+    "esco_id": "esco_68f2b74936ba1e47",
     "esco_name": "use object-oriented programming"
   },
   {
-    "skill_id": "cs_polymorphism",
+    "skill_id": "esco_68f2b74936ba1e47",
     "skill_name": "Polymorphism",
     "category": "oop",
     "depth": "build",
@@ -792,11 +792,11 @@
       "Polymorphism-Compile Time and Run Time",
       "Virtual Functions"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_68f2b74936ba1e47",
+    "esco_name": "use object-oriented programming"
   },
   {
-    "skill_id": "cs_templates_generics",
+    "skill_id": "esco_45aa771936e666a3",
     "skill_name": "Templates & generics",
     "category": "oop",
     "depth": "build",
@@ -813,11 +813,11 @@
     "evidence": [
       "Function Template"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_45aa771936e666a3",
+    "esco_name": "Templates & generics"
   },
   {
-    "skill_id": "cs_c_programming",
+    "skill_id": "esco_d44f78fb4e3cf0c2",
     "skill_name": "C programming",
     "category": "programming",
     "depth": "apply",
@@ -838,11 +838,11 @@
       "Write a C program to input marks of five subjects Physics",
       "Write a C program to print a right-angled triangle pattern using for loop * * * * * * * * * * * * * * *"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d44f78fb4e3cf0c2",
+    "esco_name": "C programming"
   },
   {
-    "skill_id": "cs_conditional_statements",
+    "skill_id": "esco_44016be557fd668f",
     "skill_name": "Conditional statements",
     "category": "programming",
     "depth": "build",
@@ -862,11 +862,11 @@
       "Develop a program to find the largest of three numbers using if-else statements",
       "conditional statements"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_44016be557fd668f",
+    "esco_name": "use logic programming"
   },
   {
-    "skill_id": "cs_console_input_output",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Console input/output",
     "category": "programming",
     "depth": "build",
@@ -885,11 +885,11 @@
       "Develop a program to calculate the perimeter and area of a rectangle by taking user input",
       "Smart Billing System (Using Arithmetic and Relational Operators). A supermarket wants to automate its billing system. The system should: 1) Take user input for the number of items purchased and their respective price per unit. 2) Calculate the total bill using arithmetic operators. 3) Apply the following discount scheme using relational and logical operators"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_debugging_unit_testing",
+    "skill_id": "esco_eff2e32254dee446",
     "skill_name": "Debugging & unit testing",
     "category": "programming",
     "depth": "apply",
@@ -907,11 +907,11 @@
       "Write the test cases for GMAIL",
       "Write the test cases for FACEBOOK"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_eff2e32254dee446",
+    "esco_name": "perform software unit testing"
   },
   {
-    "skill_id": "cs_dynamic_memory_allocation",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Dynamic memory allocation",
     "category": "programming",
     "depth": "build",
@@ -933,11 +933,11 @@
       "Dynamic memory allocation",
       "DMA"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_exception_handling",
+    "skill_id": "esco_189c7ade46a415fd",
     "skill_name": "Exception handling",
     "category": "programming",
     "depth": "build",
@@ -956,11 +956,11 @@
       "Exception Handling",
       "Software interrupts and exceptions"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_189c7ade46a415fd",
+    "esco_name": "debug software"
   },
   {
-    "skill_id": "cs_file_handling",
+    "skill_id": "esco_f26b262bf4457f7a",
     "skill_name": "File handling",
     "category": "programming",
     "depth": "build",
@@ -979,11 +979,11 @@
       "File Handling",
       "Concepts of files"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f26b262bf4457f7a",
+    "esco_name": "data storage"
   },
   {
-    "skill_id": "cs_functions_modular_programming",
+    "skill_id": "esco_f6adc28a803a7a3d",
     "skill_name": "Functions & modular programming",
     "category": "programming",
     "depth": "build",
@@ -1007,11 +1007,11 @@
       "Function definition",
       "User defined functions"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f6adc28a803a7a3d",
+    "esco_name": "use functional programming"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "skill_id": "esco_08f7b33b33c7c609",
     "skill_name": "Java",
     "category": "programming",
     "depth": "build",
@@ -1032,11 +1032,11 @@
       "Java String",
       "String Handling using Java Library"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "esco_id": "esco_08f7b33b33c7c609",
     "esco_name": "Java (computer programming)"
   },
   {
-    "skill_id": "cs_loops_iteration",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Loops & iteration",
     "category": "programming",
     "depth": "build",
@@ -1060,11 +1060,11 @@
       "Write a C program to print a right-angled triangle pattern using for loop * * * * * * * * * * * * * * *",
       "Develop a program which convert a string to uppercase using loops"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_operators_expressions",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Operators & expressions",
     "category": "programming",
     "depth": "build",
@@ -1088,11 +1088,11 @@
       "Use a conditional (ternary) operator to find the greater of two numbers",
       "Evaluation of postfix expressions"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_pointers",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Pointers",
     "category": "programming",
     "depth": "build",
@@ -1114,11 +1114,11 @@
       "Passing structure through pointers",
       "Write a C program to read two numbers from user and add them using pointers"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_preprocessor_macros",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Preprocessor & macros",
     "category": "programming",
     "depth": "apply",
@@ -1135,11 +1135,11 @@
     "evidence": [
       "Header Files"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_problem_solving_algorithmic_thinking",
+    "skill_id": "esco_27b7f40487c4756b",
     "skill_name": "Problem solving & algorithmic thinking",
     "category": "programming",
     "depth": "know",
@@ -1156,11 +1156,11 @@
     "evidence": [
       "Problem Solving phases: Understanding the problem"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_27b7f40487c4756b",
+    "esco_name": "solve problems"
   },
   {
-    "skill_id": "cs_recursion",
+    "skill_id": "esco_d7662bce29b54a72",
     "skill_name": "Recursion",
     "category": "programming",
     "depth": "build",
@@ -1183,11 +1183,11 @@
       "Performance Analysis of Recursive and Iterative Algorithms",
       "Recursion"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_d7662bce29b54a72",
+    "esco_name": "algorithms"
   },
   {
-    "skill_id": "cs_strings",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Strings",
     "category": "programming",
     "depth": "build",
@@ -1209,11 +1209,11 @@
       "Develop a program which convert a string to uppercase using loops",
       "Write a program that dynamically allocates memory for a character array (string input)"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_structures_unions",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Structures & unions",
     "category": "programming",
     "depth": "build",
@@ -1236,11 +1236,11 @@
       "Nested structures",
       "Union"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_type_conversion",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Type conversion",
     "category": "programming",
     "depth": "apply",
@@ -1257,11 +1257,11 @@
     "evidence": [
       "Type Casting"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_variables_data_types",
+    "skill_id": "esco_f7b6436d07d17c55",
     "skill_name": "Variables & data types",
     "category": "programming",
     "depth": "apply",
@@ -1284,11 +1284,11 @@
       "Demonstrate the Swapping of two numbers using a third variable and print the result",
       "Write a program in Java to display the name and roll number of students. Initialize respective array variables for 10 students. Handle ArrayIndexOutOfBoundsExce ption"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_f7b6436d07d17c55",
+    "esco_name": "computer programming"
   },
   {
-    "skill_id": "cs_git_version_control",
+    "skill_id": "esco_b3d470e2aefd68d0",
     "skill_name": "Git & version control",
     "category": "tools",
     "depth": "build",
@@ -1305,11 +1305,11 @@
     "evidence": [
       "Installation of Git and create a git repository"
     ],
-    "esco_id": null,
-    "esco_name": null
+    "esco_id": "esco_b3d470e2aefd68d0",
+    "esco_name": "Git & version control"
   },
   {
-    "skill_id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+    "skill_id": "esco_3adef8657d754fa2",
     "skill_name": "HTML & CSS",
     "category": "web",
     "depth": "apply",
@@ -1326,7 +1326,7 @@
     "evidence": [
       "Create a simple HTML form containing a Text field and a Button. By clicking on the submit button"
     ],
-    "esco_id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+    "esco_id": "esco_3adef8657d754fa2",
     "esco_name": "CSS"
   }
 ]
