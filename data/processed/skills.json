@@ -1,1036 +1,1332 @@
 [
   {
-    "skill_id": "esco_928646732350454314",
-    "skill_name": "solve problems",
-    "original_topic": "Introduction Problem Solving phases: ,-C Programming: Activity,Case",
-    "verb": "solve",
-    "depth": "apply",
-    "confidence": 0.5373,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_6777450660257269859",
-    "skill_name": "develop course outline",
-    "original_topic": "Carrying out the plan ,-C: The Classes,Info",
-    "verb": "carry",
-    "depth": "apply",
-    "confidence": 0.5212,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_7382642235046556313",
-    "skill_name": "use logic programming",
-    "original_topic": "Programming Using Programming Language fessor of",
-    "verb": "use",
-    "depth": "apply",
-    "confidence": 0.5818,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_2805814503817778426",
-    "skill_name": "Assembly (computer programming)",
-    "original_topic": "Instruction Registers ,- Computer Organization",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5824,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_2924753286546100861",
-    "skill_name": "C++",
-    "original_topic": "Fundamental Features & Applications of C ,-C Programming: Activity,Case",
-    "verb": null,
-    "depth": "know",
-    "confidence": 0.528,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_7829646040983629033",
-    "skill_name": "consider economic criteria in decision making",
-    "original_topic": "Decision Decision making statements (if, if- ,-C Programming: Activity,Case",
-    "verb": "make",
-    "depth": "apply",
-    "confidence": 0.5033,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_8515251948535002776",
-    "skill_name": "use functional programming",
-    "original_topic": "using library functions. Programming Language fessor of",
-    "verb": "use",
-    "depth": "apply",
-    "confidence": 0.5581,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_3593678625526351811",
-    "skill_name": "information structure",
-    "original_topic": "Structures Structure: Basics of structure, ,-C Programming: Activity,Case",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5332,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_6611292959458215442",
-    "skill_name": "real-time computing",
-    "original_topic": "Dynamic Real Time problems based on ,-C Programming: Activity,Case",
-    "verb": "base",
+    "skill_id": "cs_complexity_analysis",
+    "skill_name": "Complexity analysis",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.5275,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Asymptotic notations",
+    "verb": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Asymptotic notations",
+      "searching – linear search and complexity analysis",
+      "and complexity analysis",
+      "Bubble sort and complexity analysis",
+      "Merging arrays & merge sort and complexity analysis"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_3225759044999098534",
-    "skill_name": "use typesetting software",
-    "original_topic": "and prints them using ,-C How to Classes,Infographic",
-    "verb": "print",
-    "depth": "apply",
-    "confidence": 0.5614,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_1374488221332265194",
-    "skill_name": "use scripting programming",
-    "original_topic": "Take user input for the Programming Language fessor of",
-    "verb": "take",
-    "depth": "apply",
-    "confidence": 0.5168,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_3032342309212246675",
-    "skill_name": "design database scheme",
-    "original_topic": "Design and Table Creation for Fundamentals of Database Syste,R",
-    "verb": "design",
+    "skill_id": "cs_divide_and_conquer",
+    "skill_name": "Divide and conquer",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.5817,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_7527279408483677142",
-    "skill_name": "teach chemistry",
-    "original_topic": "Physics, Chemistry, Biology, ,-C How to Classes,Infographic",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Implementation of Quick Sort using Divide and Conquer",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5921,
-    "unit": null,
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Implementation of Quick Sort using Divide and Conquer"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_2515333599438522300",
-    "skill_name": "process printing input",
-    "original_topic": "to print Program,- s,Instructor Lead",
-    "verb": "develop",
+    "skill_id": "cs_dynamic_programming",
+    "skill_name": "Dynamic programming",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.5525,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_7308582874458637308",
-    "skill_name": "Prolog (computer programming)",
-    "original_topic": "prime. Programming Language fessor of",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Implementation of Knapsack Problem using Greedy Algorithm",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5422,
-    "unit": null,
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Implementation of Knapsack Problem using Greedy Algorithm"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_3333997062096081984",
-    "skill_name": "computational linguistics",
-    "original_topic": "Programming Language fessor of",
-    "verb": "implement",
+    "skill_id": "cs_graph_traversal_bfs_dfs",
+    "skill_name": "Graph traversal (BFS/DFS)",
+    "category": "algorithms",
     "depth": "apply",
-    "confidence": 0.5707,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_3419339939908922847",
-    "skill_name": "Microsoft Visual C++",
-    "original_topic": "the use of built- ,-C Programming: A Activity,Case",
-    "verb": "demonstrate",
-    "depth": "apply",
-    "confidence": 0.51,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26CSH-101.pdf"
-  },
-  {
-    "skill_id": "esco_1801629322773285225",
-    "skill_name": "utilise machine learning",
-    "original_topic": "using different machine Learning",
-    "verb": "use",
-    "depth": "apply",
-    "confidence": 0.5346,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26ECP-102.pdf"
-  },
-  {
-    "skill_id": "esco_3484777659881885937",
-    "skill_name": "machine learning",
-    "original_topic": "learning algorithms. Machin,- Practical,Instructor",
-    "verb": "learn",
-    "depth": "apply",
-    "confidence": 0.5409,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26ECP-102.pdf"
-  },
-  {
-    "skill_id": "esco_956992048886743893",
-    "skill_name": "principles of artificial intelligence",
-    "original_topic": "Systems. Artificial Intelligence: Makin",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Implementation of Graph Traversal Techniques (BFS & DFS)",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5303,
-    "unit": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS201_26ECP-102.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Implementation of Graph Traversal Techniques (BFS & DFS)",
+      "Objective: Implement topological sorting using DFS and Kahn’s Algorithm"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_8453524583341487720",
-    "skill_name": "CAD software",
-    "original_topic": "Introduction of CAD Software's ,- Video",
-    "verb": null,
-    "depth": "know",
-    "confidence": 0.7496,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_3597940085526149871",
-    "skill_name": "use CADD software",
-    "original_topic": "AutoCAD software (Draw, Engineering Drawing",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.678,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_9134017583217369824",
-    "skill_name": "create CAD drawings",
-    "original_topic": "Drawing with CAD a Lead Workshop",
-    "verb": "draw",
-    "depth": "apply",
-    "confidence": 0.6989,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_6698827680766629232",
-    "skill_name": "set up projection equipment",
-    "original_topic": "orthographic projections. Engineering Drawing",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6062,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_1571215159278126498",
-    "skill_name": "isometric perspective",
-    "original_topic": "isometric projections (single Engineering Drawing",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6599,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_2803059352454850122",
-    "skill_name": "create 2D painting",
-    "original_topic": "Drawing of basic 3D figures ,- Hand On Activity",
-    "verb": "draw",
-    "depth": "apply",
-    "confidence": 0.5169,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_5304048324598637456",
-    "skill_name": "use polygonal modelling",
-    "original_topic": "using 3D modeling. Engineering Drawing",
-    "verb": "use",
-    "depth": "apply",
-    "confidence": 0.6734,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26MEP-102.pdf"
-  },
-  {
-    "skill_id": "esco_8793843528173670282",
-    "skill_name": "business processes",
-    "original_topic": "Process industry, or academia Methods",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5942,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25RST-231.pdf"
-  },
-  {
-    "skill_id": "esco_1861348281420595370",
-    "skill_name": "ethical code of conduct of journalists",
-    "original_topic": "Communicati in Ethical Communication Prin",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.57,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26PCH-110.pdf"
-  },
-  {
-    "skill_id": "esco_7557986387480090973",
-    "skill_name": "MATLAB",
-    "original_topic": "Engineering Mat",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5647,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26SMT-121.pdf"
-  },
-  {
-    "skill_id": "esco_6567306910745633024",
-    "skill_name": "scientific modelling",
-    "original_topic": "Discussion of working model ,-Physics Activity,Reports",
-    "verb": null,
+    "skill_id": "cs_greedy_algorithms",
+    "skill_name": "Greedy algorithms",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.5487,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26SPH-143.pdf"
-  },
-  {
-    "skill_id": "esco_1043268457075952006",
-    "skill_name": "create solutions to problems",
-    "original_topic": "Problem Making Process, Strategies of",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Greedy Algorithm",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.643,
-    "unit": null,
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS201_26UCT-103.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Greedy Algorithm",
+      "Implementation of Knapsack Problem using Greedy Algorithm"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_252668532472769267",
-    "skill_name": "develop strategy to solve problems",
-    "original_topic": "Problem scope, Process of developing",
-    "verb": "develop",
+    "skill_id": "cs_searching_algorithms",
+    "skill_name": "Searching algorithms",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.6017,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS201_26UCT-103.pdf"
-  },
-  {
-    "skill_id": "esco_7058947251755040839",
-    "skill_name": "communication",
-    "original_topic": "Communicati and Process of Communication",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Linear Search",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.6807,
-    "unit": null,
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS201_26UCT-103.pdf"
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Linear Search",
+      "searching – linear search and complexity analysis",
+      "binary search",
+      "Searching a linked list",
+      "Searching"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_7029519490690369253",
-    "skill_name": "organise a repertoire",
-    "original_topic": "Structures & Introduction to Sorting",
-    "verb": "sort",
-    "depth": "apply",
-    "confidence": 0.5615,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-232.pdf"
-  },
-  {
-    "skill_id": "esco_1700296427526323450",
-    "skill_name": "algorithms",
-    "original_topic": "Algorithm",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.546,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-232.pdf"
-  },
-  {
-    "skill_id": "esco_1347822920331624139",
-    "skill_name": "fell trees",
-    "original_topic": "& Advanced Tree",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5189,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-232.pdf"
-  },
-  {
-    "skill_id": "esco_6177065342393978048",
-    "skill_name": "Objective-C",
-    "original_topic": "Objective: Implement",
-    "verb": "implement",
-    "depth": "apply",
-    "confidence": 0.6049,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-232.pdf"
-  },
-  {
-    "skill_id": "esco_5954328173138406631",
-    "skill_name": "use spreadsheets software",
-    "original_topic": "Table Operations",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5031,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-232.pdf"
-  },
-  {
-    "skill_id": "esco_7909969049430965313",
-    "skill_name": "Java (computer programming)",
-    "original_topic": "Write a Java program that",
+    "skill_id": "cs_shortest_path_algorithms",
+    "skill_name": "Shortest path algorithms",
+    "category": "algorithms",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Write a C program to print a Floyd’s Triangle using for loop. 1 2 3 4 5 6 7 8 9 10",
     "verb": "write",
-    "depth": "apply",
-    "confidence": 0.7344,
-    "unit": null,
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS228_25CSH-235.pdf"
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Write a C program to print a Floyd’s Triangle using for loop. 1 2 3 4 5 6 7 8 9 10",
+      "Shortest Path algorithms: Dijkstra's Algorithm",
+      "Implementation of Dijkstra’s Algorithm for Shortest Path"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_8155850375332104441",
-    "skill_name": "use concurrent programming",
-    "original_topic": "Advanced Multithreaded Programming",
-    "verb": null,
+    "skill_id": "cs_sorting_algorithms",
+    "skill_name": "Sorting algorithms",
+    "category": "algorithms",
     "depth": "build",
-    "confidence": 0.6093,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Sorting",
+    "verb": "introduction",
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25CSH-235.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Introduction to Sorting",
+      "Analysis of basic sorting techniques",
+      "Bubble sort and complexity analysis",
+      "Merging arrays & merge sort and complexity analysis",
+      "Heap & heap sort"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_7741475754232315283",
-    "skill_name": "operate relational database management system",
-    "original_topic": "practicing basic SQL Database System Concepts",
-    "verb": "practice",
+    "skill_id": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+    "skill_name": "Machine learning",
+    "category": "data_science",
     "depth": "build",
-    "confidence": 0.6738,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Understand supervised learning to train and develop classifier models",
+    "verb": "understand",
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
+    "source": "LecturePlan_CS201_26ECP-102.pdf",
+    "sources": [
+      "LecturePlan_CS201_26ECP-102.pdf"
+    ],
+    "evidence": [
+      "Understand supervised learning to train and develop classifier models",
+      "Build a classification model by using different machine learning algorithms",
+      "Introduction to Artificial Intelligence and Machine Learning Concepts",
+      "Understanding Azure Machine Learning"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+    "esco_name": "machine learning"
   },
   {
-    "skill_id": "esco_355601534867937141",
-    "skill_name": "define database physical structure",
-    "original_topic": "Structures preparation An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6592,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8525527704865391242",
-    "skill_name": "database management systems",
-    "original_topic": "Databases Responsibilities of DBA An Introduction to Database Sy Lecture",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6561,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8587380190598478252",
-    "skill_name": "data models",
-    "original_topic": "Data Models schema definition, creating tables Systems",
-    "verb": "schema",
-    "depth": "apply",
-    "confidence": 0.7065,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_4911634304829896877",
-    "skill_name": "database",
-    "original_topic": "database",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.7174,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_3981711630502458437",
-    "skill_name": "SQL",
-    "original_topic": "Languages session An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6082,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8873821982457443114",
-    "skill_name": "create model",
-    "original_topic": "Models",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6287,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_4168828309134418311",
-    "skill_name": "query languages",
-    "original_topic": "Languages Relational Comparisons An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5843,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_3567086459374515811",
-    "skill_name": "perform data cleansing",
-    "original_topic": "and SQL UPDATE, DELETE Concepts",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5334,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_1891200960048412833",
-    "skill_name": "model sets",
-    "original_topic": "set - Computer Systems Architect",
-    "verb": "set",
-    "depth": "apply",
-    "confidence": 0.5788,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_6932853759652271459",
-    "skill_name": "Oracle Relational Database",
-    "original_topic": "Relational Syntax, Semantics, Selection and Fundamentals of Database Syste,R",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5689,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_6584885013508465075",
-    "skill_name": "R",
-    "original_topic": "Languages Practice problems on RA and RC An Introduction to Database Sy",
-    "verb": "practice",
-    "depth": "apply",
-    "confidence": 0.5241,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_2121552005456711388",
-    "skill_name": "normalise data",
-    "original_topic": "Normalization",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6452,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_7958907567520583134",
-    "skill_name": "design database in the cloud",
-    "original_topic": "Dependencie Database Systems: A Practical",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.51,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8759421150760529094",
-    "skill_name": "utilise computer-aided software engineering tools",
-    "original_topic": "Dependencie cases Database Systems: A Practical",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.508,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_4432471401874771878",
-    "skill_name": "maintain database security",
-    "original_topic": "Chapter 2.2 - Database Security: Introduction",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.653,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_833857801745954267",
-    "skill_name": "security threats",
-    "original_topic": "Security Unauthorized Access Concepts",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5375,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_6757371078088736207",
-    "skill_name": "develop security concepts",
-    "original_topic": "Security Encryption, Auditing Concepts",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5806,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_3394223598483744997",
-    "skill_name": "create documented procedures",
-    "original_topic": "Procedures PL/SQL Concepts",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5345,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_1937893597986047356",
-    "skill_name": "manage disaster recovery plans",
-    "original_topic": "Management Recoverability An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5627,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_1288105170709687329",
-    "skill_name": "write database documentation",
-    "original_topic": "Insert and An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5352,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_7216075827692329871",
-    "skill_name": "use back-up and recovery tools",
-    "original_topic": "Database Recovery",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5644,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_750158046224643455",
-    "skill_name": "ICT recovery techniques",
-    "original_topic": "Recovery for recovery An Introduction to Database Sy",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5848,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_1093465253351192467",
-    "skill_name": "maintain records of financial transactions",
-    "original_topic": "Database transactions",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5633,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_6956344608988269034",
-    "skill_name": "database development tools",
-    "original_topic": "DDL Queries – CREATE, Database Systems: A Practical",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5362,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_626503002857274755",
-    "skill_name": "domain name service",
-    "original_topic": "Domain, Primary Key, Foreign Database System Concepts",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5436,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_5519360545994117630",
-    "skill_name": "manage standards for data exchange",
-    "original_topic": "real-world schema (e.g",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.576,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_5181567634662700621",
-    "skill_name": "monitor system performance",
-    "original_topic": "Progress Monitoring System / Database Principles: Fundament",
-    "verb": "progress",
-    "depth": "apply",
-    "confidence": 0.5246,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8212796600749016416",
-    "skill_name": "plan retail space",
-    "original_topic": "chosen project (Library / Retail Database Principles: Fundament",
-    "verb": "choose",
-    "depth": "apply",
-    "confidence": 0.5298,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_8321020145173645408",
-    "skill_name": "create database diagrams",
-    "original_topic": "demonstration, Viva and Database Systems: A Practical",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5351,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-236.pdf"
-  },
-  {
-    "skill_id": "esco_2320165187386528387",
-    "skill_name": "design thinking",
-    "original_topic": "to Design thinking and agile methodology Bo",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.7175,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_456988368975495767",
-    "skill_name": "Waterfall development",
-    "original_topic": "Agile Waterfall Model",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.7818,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_8710458405184672771",
-    "skill_name": "Agile development",
-    "original_topic": "Agile Agile, Advantages and",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.68,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_7079215762104802760",
-    "skill_name": "Spiral development",
-    "original_topic": "Agile Disadvantages of Spiral-Model E",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.629,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_2247090293123352571",
-    "skill_name": "Agile project management",
-    "original_topic": "Agile Agile in Large-Scale Enterprises E",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.586,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_4163084971754122727",
-    "skill_name": "software design methodologies",
-    "original_topic": "and Scrum Study), Cloud-Based Project",
-    "verb": "base",
-    "depth": "build",
-    "confidence": 0.5972,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_2363020844036987175",
-    "skill_name": "DevOps",
-    "original_topic": "Learning Devops",
-    "verb": "learn",
-    "depth": "build",
-    "confidence": 0.7314,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_7195575342983321485",
-    "skill_name": "process booking",
-    "original_topic": "Booking using MURAL",
-    "verb": "use",
-    "depth": "apply",
-    "confidence": 0.5183,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_1959802396314413015",
-    "skill_name": "compile GIS-data",
-    "original_topic": "git repository Design Thinking Methodology Bo,R",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5125,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_4753741843146409147",
-    "skill_name": "design cloud architecture",
-    "original_topic": "Cloud or AWS Design Thinking Methodology Bo,R",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6898,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CSH-247.pdf"
-  },
-  {
-    "skill_id": "esco_4958662179910367416",
-    "skill_name": "microprocessors",
-    "original_topic": "CPU control Micro-programmed design ,- Computer Organization",
-    "verb": "program",
-    "depth": "apply",
-    "confidence": 0.6307,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_5330932671957895145",
-    "skill_name": "hardware architectures",
-    "original_topic": "of a CPU & Computer System Design and",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6678,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_8122573662241932925",
-    "skill_name": "perform lectures",
-    "original_topic": "Memory Organization and Lecture",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6094,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_7687545978528513857",
-    "skill_name": "organise storage facilities",
-    "original_topic": "Memory Memory organization ,- Computer Organization",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.5437,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_8763131823151811305",
-    "skill_name": "memorise information",
-    "original_topic": "Memory",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.514,
-    "unit": null,
-    "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
-  },
-  {
-    "skill_id": "esco_6331441353601230541",
-    "skill_name": "read maps",
-    "original_topic": "Memory Different Mapping Techniques ,- Computer Organization",
-    "verb": null,
+    "skill_id": "cs_matplotlib_data_visualization",
+    "skill_name": "Matplotlib / data visualization",
+    "category": "data_science",
     "depth": "know",
-    "confidence": 0.5094,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "NumPy & Matplotlib for Data Analysis",
+    "verb": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25CST-238.pdf"
+    "source": "LecturePlan_CS201_26ECP-102.pdf",
+    "sources": [
+      "LecturePlan_CS201_26ECP-102.pdf"
+    ],
+    "evidence": [
+      "NumPy & Matplotlib for Data Analysis"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_5251667234783118276",
-    "skill_name": "plan research process",
-    "original_topic": "Methods Start building a research plan: F",
-    "verb": "build",
+    "skill_id": "cs_nlp_computer_vision",
+    "skill_name": "NLP & computer vision",
+    "category": "data_science",
+    "depth": "know",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Natural Language Processing and Azure AI Tools",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS201_26ECP-102.pdf",
+    "sources": [
+      "LecturePlan_CS201_26ECP-102.pdf"
+    ],
+    "evidence": [
+      "Natural Language Processing and Azure AI Tools",
+      "Understanding Natural Language Processing and Speech AI Concepts with Microsoft Tools"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_numpy_pandas",
+    "skill_name": "NumPy / pandas",
+    "category": "data_science",
+    "depth": "know",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Pandas",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26ECP-102.pdf",
+    "sources": [
+      "LecturePlan_CS201_26ECP-102.pdf"
+    ],
+    "evidence": [
+      "Pandas"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_database_design_normalization",
+    "skill_name": "Database design & normalization",
+    "category": "database",
     "depth": "build",
-    "confidence": 0.6813,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Schema and Instances",
+    "verb": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25RST-231.pdf"
+    "source": "LecturePlan_CS228_25CSH-236.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-236.pdf",
+      "LecturePlan_CS228_25CST-238.pdf"
+    ],
+    "evidence": [
+      "Schema and Instances",
+      "ER Model: Design",
+      "schema definition",
+      "Functional Dependencies: definition",
+      "Full Functional Dependency (FFD)"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_3537922380230529717",
-    "skill_name": "process qualitative information",
-    "original_topic": "Process Question Methods",
+    "skill_id": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "skill_name": "Database management systems",
+    "category": "database",
+    "depth": "know",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "DBMS definition",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5677,
-    "unit": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25RST-231.pdf"
+    "source": "LecturePlan_CS228_25CSH-236.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "DBMS definition",
+      "Advantages and Disadvantages of DBMS"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f",
+    "esco_name": "database management systems"
   },
   {
-    "skill_id": "esco_4631728784834214010",
-    "skill_name": "review development process of an organisation",
-    "original_topic": "Review Research –Con",
-    "verb": null,
+    "skill_id": "cs_relational_model_algebra",
+    "skill_name": "Relational model & algebra",
+    "category": "database",
     "depth": "apply",
-    "confidence": 0.5335,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Relational Algebra: Introduction",
+    "verb": "introduction",
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25RST-231.pdf"
+    "source": "LecturePlan_CS228_25CSH-236.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Relational Algebra: Introduction",
+      "Relational Algebra: Additional operators"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_8797309813243289674",
-    "skill_name": "probability theory",
-    "original_topic": "'s Outline of Probabilit,R",
+    "skill_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "skill_name": "SQL",
+    "category": "database",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "SQL: Data Definition",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5323,
-    "unit": null,
+    "unit": "1",
     "hours": null,
-    "source": "LecturePlan_CS228_25SMT-236.pdf"
+    "source": "LecturePlan_CS228_25CSH-236.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "SQL: Data Definition",
+      "SQL: Basic structure of queries",
+      "DDL commands (CREATE, ALTER, DROP)",
+      "Join Dependency (JD)",
+      "Threats – SQL Injection"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+    "esco_name": "SQL"
   },
   {
-    "skill_id": "esco_8771441862305471574",
-    "skill_name": "statistics",
-    "original_topic": "Probability and Statistics for",
-    "verb": null,
+    "skill_id": "cs_transactions_concurrency_control",
+    "skill_name": "Transactions & concurrency control",
+    "category": "database",
     "depth": "apply",
-    "confidence": 0.5993,
-    "unit": null,
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Transaction Processing",
+    "verb": "introduction",
+    "unit": "3",
     "hours": null,
-    "source": "LecturePlan_CS228_25SMT-236.pdf"
+    "source": "LecturePlan_CS228_25CSH-236.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Introduction to Transaction Processing",
+      "Serializability: Conflict serializability",
+      "Need for Concurrency Control",
+      "Optimistic concurrency control",
+      "Introduction to Database Recovery"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_8168846825491282164",
-    "skill_name": "adhere to organisational code of ethics",
-    "original_topic": "Ethics Importance, Code of Ethics for",
-    "verb": null,
-    "depth": "apply",
-    "confidence": 0.6284,
-    "unit": null,
+    "skill_id": "cs_arrays",
+    "skill_name": "Arrays",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to array",
+    "verb": "introduction",
+    "unit": "2",
     "hours": null,
-    "source": "LecturePlan_CS228_25UCT-296.pdf"
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Introduction to array",
+      "Declaration and Initialization of arrays",
+      "Array Traversing",
+      "Pointers and Arrays",
+      "passing array as pointer"
+    ],
+    "esco_id": null,
+    "esco_name": null
   },
   {
-    "skill_id": "esco_2831070814104633742",
-    "skill_name": "tree preservation and conservation",
-    "original_topic": "Conservation relationship between natural",
+    "skill_id": "cs_balanced_trees",
+    "skill_name": "Balanced trees",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "AVL Search trees",
     "verb": null,
-    "depth": "apply",
-    "confidence": 0.5119,
-    "unit": null,
+    "unit": "3",
     "hours": null,
-    "source": "LecturePlan_CS228_25UCT-296.pdf"
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "AVL Search trees",
+      "Implementation of AVL Trees"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_binary_search_trees",
+    "skill_name": "Binary search trees",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Binary Search trees",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Binary Search trees",
+      "Inserting & Deleting in Binary Search Tree",
+      "Implementation of Binary Search Tree (BST) Operations"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_data_structures_general",
+    "skill_name": "Data structures (general)",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Data Structures",
+    "verb": "introduction",
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Introduction to Data Structures",
+      "Implementation of Heap Sort using Heap Data Structure",
+      "Relational Data Structure: Keys"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_graphs",
+    "skill_name": "Graphs",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Graph Theory terminology",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Graph Theory terminology",
+      "Traversing a graph",
+      "Implementation of Graph Traversal Techniques (BFS & DFS)",
+      "Concepts: Weighted Graphs",
+      "Implementation of Topological Sorting for Directed Graphs"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_hashing",
+    "skill_name": "Hashing",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Hash Table",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Hash Table",
+      "Collision Resolution Strategies",
+      "Implementation of Hash Table and Collision Resolution Techniques"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_heaps_priority_queues",
+    "skill_name": "Heaps & priority queues",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Priority queue",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Priority queue",
+      "Heap & heap sort",
+      "Implementation of Heap Sort using Heap Data Structure",
+      "Priority Queues"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_linked_lists",
+    "skill_name": "Linked lists",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Linear linked list",
+    "verb": "list",
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Linear linked list",
+      "Searching a linked list",
+      "Insertion in & deletion from linked list",
+      "Header Linked List",
+      "Operations on doubly linked list"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_queues",
+    "skill_name": "Queues",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Linear queue",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Linear queue",
+      "Operations on the queue",
+      "Double ended queue",
+      "Priority Queue",
+      "Stack & Queue"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_stacks",
+    "skill_name": "Stacks",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Operations on stacks: PUSH &POP",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Operations on stacks: PUSH &POP",
+      "Traversal Algorithms using stacks",
+      "Stack & Queue"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_trees_tree_traversal",
+    "skill_name": "Trees & tree traversal",
+    "category": "dsa",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Binary Trees",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-232.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Binary Trees",
+      "Binary Search trees",
+      "Inserting & Deleting in Binary Search Tree",
+      "AVL Search trees",
+      "B Tree"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_constructors_destructors",
+    "skill_name": "Constructors & destructors",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Java Constructor",
+    "verb": "construct",
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Java Constructor"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_encapsulation_abstraction",
+    "skill_name": "Encapsulation & abstraction",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Abstraction",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Abstraction",
+      "Abstract Class",
+      "Degrees of data abstraction"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_inheritance",
+    "skill_name": "Inheritance",
+    "category": "oop",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Inheritance",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Inheritance"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_multithreading",
+    "skill_name": "Multithreading",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Write a java program using thread synchronization in multithreading",
+    "verb": "write",
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Write a java program using thread synchronization in multithreading",
+      "Multithreaded Programming"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+    "skill_name": "Object-oriented programming",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Class fundamentals",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Class fundamentals",
+      "Nested Class",
+      "Abstract Class",
+      "Wrapper Class",
+      "Class Template"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+    "esco_name": "use object-oriented programming"
+  },
+  {
+    "skill_id": "cs_polymorphism",
+    "skill_name": "Polymorphism",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Polymorphism",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Polymorphism",
+      "Polymorphism-Compile Time and Run Time",
+      "Virtual Functions"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_templates_generics",
+    "skill_name": "Templates & generics",
+    "category": "oop",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Function Template",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Function Template"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_c_programming",
+    "skill_name": "C programming",
+    "category": "programming",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Features & Applications of C language",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf"
+    ],
+    "evidence": [
+      "Features & Applications of C language",
+      "Structure of writing a C Program",
+      "Implement a C program to display the memory size of different data types",
+      "Write a C program to input marks of five subjects Physics",
+      "Write a C program to print a right-angled triangle pattern using for loop * * * * * * * * * * * * * * *"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_conditional_statements",
+    "skill_name": "Conditional statements",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Decision making statements (if, if- else, if-else-if, switch)",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Decision making statements (if, if- else, if-else-if, switch)",
+      "Develop a program to find the largest of three numbers using if-else statements",
+      "conditional statements"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_console_input_output",
+    "skill_name": "Console input/output",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Develop a program that takes student details as input and prints them using input/output functions",
+    "verb": "develop",
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf"
+    ],
+    "evidence": [
+      "Develop a program that takes student details as input and prints them using input/output functions",
+      "Develop a program to calculate the perimeter and area of a rectangle by taking user input",
+      "Smart Billing System (Using Arithmetic and Relational Operators). A supermarket wants to automate its billing system. The system should: 1) Take user input for the number of items purchased and their respective price per unit. 2) Calculate the total bill using arithmetic operators. 3) Apply the following discount scheme using relational and logical operators"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_debugging_unit_testing",
+    "skill_name": "Debugging & unit testing",
+    "category": "programming",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Write the test cases for GMAIL",
+    "verb": "write",
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-247.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-247.pdf"
+    ],
+    "evidence": [
+      "Write the test cases for GMAIL",
+      "Write the test cases for FACEBOOK"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_dynamic_memory_allocation",
+    "skill_name": "Dynamic memory allocation",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Dynamic memory allocation",
+    "verb": "introduction",
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CST-238.pdf"
+    ],
+    "evidence": [
+      "Introduction to Dynamic memory allocation",
+      "Real Time problems based on DMA",
+      "Dynamic memory allocation",
+      "DMA"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_exception_handling",
+    "skill_name": "Exception handling",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Exception Handling",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CST-238.pdf"
+    ],
+    "evidence": [
+      "Exception Handling",
+      "Software interrupts and exceptions"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_file_handling",
+    "skill_name": "File handling",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "File Handling",
+    "verb": null,
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "File Handling",
+      "Concepts of files"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_functions_modular_programming",
+    "skill_name": "Functions & modular programming",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "I/O functions",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "I/O functions",
+      "Inbuilt and user defined functions of strings",
+      "Introduction to functions",
+      "Function definition",
+      "User defined functions"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "skill_name": "Java",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Java",
+    "verb": "introduction",
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Introduction to Java",
+      "Java data-types",
+      "Java Constructor",
+      "Java String",
+      "String Handling using Java Library"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+    "esco_name": "Java (computer programming)"
+  },
+  {
+    "skill_id": "cs_loops_iteration",
+    "skill_name": "Loops & iteration",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Looping statementsLooping statements (for, while, do-while)",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Looping statementsLooping statements (for, while, do-while)",
+      "Nested loops",
+      "Write a program to display natural numbers up to n using loops",
+      "Write a C program to print a right-angled triangle pattern using for loop * * * * * * * * * * * * * * *",
+      "Develop a program which convert a string to uppercase using loops"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_operators_expressions",
+    "skill_name": "Operators & expressions",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Operators",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Operators",
+      "Expressions",
+      "Smart Billing System (Using Arithmetic and Relational Operators). A supermarket wants to automate its billing system. The system should: 1) Take user input for the number of items purchased and their respective price per unit. 2) Calculate the total bill using arithmetic operators. 3) Apply the following discount scheme using relational and logical operators",
+      "Use a conditional (ternary) operator to find the greater of two numbers",
+      "Evaluation of postfix expressions"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_pointers",
+    "skill_name": "Pointers",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Pointers: Basics of pointers",
+    "verb": "basics",
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf"
+    ],
+    "evidence": [
+      "Pointers: Basics of pointers",
+      "Double pointer",
+      "passing array as pointer",
+      "Passing structure through pointers",
+      "Write a C program to read two numbers from user and add them using pointers"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_preprocessor_macros",
+    "skill_name": "Preprocessor & macros",
+    "category": "programming",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Header Files",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf"
+    ],
+    "evidence": [
+      "Header Files"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_problem_solving_algorithmic_thinking",
+    "skill_name": "Problem solving & algorithmic thinking",
+    "category": "programming",
+    "depth": "know",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Problem Solving phases: Understanding the problem",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf"
+    ],
+    "evidence": [
+      "Problem Solving phases: Understanding the problem"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_recursion",
+    "skill_name": "Recursion",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Recursive functions",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Recursive functions",
+      "Write a recursive function to calculate the factorial of a given number",
+      "Meaning and importance of recursion",
+      "Performance Analysis of Recursive and Iterative Algorithms",
+      "Recursion"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_strings",
+    "skill_name": "Strings",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Introduction to Strings",
+    "verb": "introduction",
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Introduction to Strings",
+      "Inbuilt and user defined functions of strings",
+      "Demonstrate the use of built- in string functions (strrev, strlen, strcmp, strcpy, strcat)",
+      "Develop a program which convert a string to uppercase using loops",
+      "Write a program that dynamically allocates memory for a character array (string input)"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_structures_unions",
+    "skill_name": "Structures & unions",
+    "category": "programming",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Structure of writing a C Program",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-232.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Structure of writing a C Program",
+      "Nesting of decision control structures",
+      "Structure: Basics of structure",
+      "Nested structures",
+      "Union"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_type_conversion",
+    "skill_name": "Type conversion",
+    "category": "programming",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Type Casting",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf"
+    ],
+    "evidence": [
+      "Type Casting"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_variables_data_types",
+    "skill_name": "Variables & data types",
+    "category": "programming",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Data Types",
+    "verb": null,
+    "unit": "1",
+    "hours": null,
+    "source": "LecturePlan_CS201_26CSH-101.pdf",
+    "sources": [
+      "LecturePlan_CS201_26CSH-101.pdf",
+      "LecturePlan_CS228_25CSH-235.pdf",
+      "LecturePlan_CS228_25CSH-236.pdf"
+    ],
+    "evidence": [
+      "Data Types",
+      "Constants and Variables",
+      "Implement a C program to display the memory size of different data types",
+      "Demonstrate the Swapping of two numbers using a third variable and print the result",
+      "Write a program in Java to display the name and roll number of students. Initialize respective array variables for 10 students. Handle ArrayIndexOutOfBoundsExce ption"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "cs_git_version_control",
+    "skill_name": "Git & version control",
+    "category": "tools",
+    "depth": "build",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Installation of Git and create a git repository",
+    "verb": null,
+    "unit": "2",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-247.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-247.pdf"
+    ],
+    "evidence": [
+      "Installation of Git and create a git repository"
+    ],
+    "esco_id": null,
+    "esco_name": null
+  },
+  {
+    "skill_id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+    "skill_name": "HTML & CSS",
+    "category": "web",
+    "depth": "apply",
+    "confidence": 0.95,
+    "match_type": "alias",
+    "original_topic": "Create a simple HTML form containing a Text field and a Button. By clicking on the submit button",
+    "verb": "create",
+    "unit": "3",
+    "hours": null,
+    "source": "LecturePlan_CS228_25CSH-235.pdf",
+    "sources": [
+      "LecturePlan_CS228_25CSH-235.pdf"
+    ],
+    "evidence": [
+      "Create a simple HTML form containing a Text field and a Button. By clicking on the submit button"
+    ],
+    "esco_id": "http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777",
+    "esco_name": "CSS"
   }
 ]
