@@ -1,8 +1,11 @@
-node_modules/
-build/
-dist/
-coverage/
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
 .DS_Store
-*.log
-.env*
-!.env.example
+# big raw datasets: share via Drive, not git
+data/raw/**/*.csv
+data/raw/**/*.pdf
+data/raw/**/*.zip
+!data/raw/**/.gitkeep
