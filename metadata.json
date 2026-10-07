@@ -1,0 +1,6 @@
+{
+  "name": "Skillidify - Intelligent Talent & Workforce Ecosystem",
+  "description": "Bridging university curriculum with verified industry demand through closed-loop syllabus mapping and self-verified challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
