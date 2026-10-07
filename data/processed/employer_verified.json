@@ -6,6 +6,11 @@
         "distinct_employers": 256,
         "postings": 297,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.9,
+            "apply": 10.6,
+            "build": 75.5
+        },
         "trend": "rising",
         "trend_2030_estimate": 395,
         "trend_confidence_band": [
@@ -20,6 +25,11 @@
         "distinct_employers": 242,
         "postings": 547,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 14.6,
+            "apply": 14.5,
+            "build": 70.9
+        },
         "trend": "rising",
         "trend_2030_estimate": 315,
         "trend_confidence_band": [
@@ -34,6 +44,11 @@
         "distinct_employers": 236,
         "postings": 892,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.2,
+            "apply": 11.2,
+            "build": 76.6
+        },
         "trend": "rising",
         "trend_2030_estimate": 371,
         "trend_confidence_band": [
@@ -48,6 +63,11 @@
         "distinct_employers": 152,
         "postings": 622,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 18.1,
+            "apply": 67.2,
+            "build": 14.7
+        },
         "trend": "rising",
         "trend_2030_estimate": 198,
         "trend_confidence_band": [
@@ -61,7 +81,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
         "distinct_employers": 132,
         "postings": 144,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 49.2,
+            "apply": 33.3,
+            "build": 17.5
+        },
         "trend": "rising",
         "trend_2030_estimate": 187,
         "trend_confidence_band": [
@@ -75,7 +100,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01",
         "distinct_employers": 106,
         "postings": 114,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 46.7,
+            "apply": 33.3,
+            "build": 20.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 111,
         "trend_confidence_band": [
@@ -89,7 +119,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787",
         "distinct_employers": 94,
         "postings": 104,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 50.1,
+            "apply": 30.2,
+            "build": 19.7
+        },
         "trend": "rising",
         "trend_2030_estimate": 122,
         "trend_confidence_band": [
@@ -103,7 +138,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2",
         "distinct_employers": 83,
         "postings": 92,
-        "demand_depth": "build",
+        "demand_depth": "apply",
+        "demand_mix": {
+            "know": 25.0,
+            "apply": 68.5,
+            "build": 6.5
+        },
         "trend": "steady",
         "trend_2030_estimate": 87,
         "trend_confidence_band": [
@@ -118,6 +158,11 @@
         "distinct_employers": 82,
         "postings": 364,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.3,
+            "apply": 10.5,
+            "build": 78.2
+        },
         "trend": "steady",
         "trend_2030_estimate": 86,
         "trend_confidence_band": [
@@ -132,6 +177,11 @@
         "distinct_employers": 77,
         "postings": 82,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.2,
+            "apply": 7.8,
+            "build": 80.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 81,
         "trend_confidence_band": [
@@ -146,6 +196,11 @@
         "distinct_employers": 76,
         "postings": 86,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.1,
+            "apply": 6.9,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 99,
         "trend_confidence_band": [
@@ -160,6 +215,11 @@
         "distinct_employers": 65,
         "postings": 353,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.4,
+            "apply": 11.3,
+            "build": 77.3
+        },
         "trend": "rising",
         "trend_2030_estimate": 99,
         "trend_confidence_band": [
@@ -174,6 +234,11 @@
         "distinct_employers": 64,
         "postings": 69,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.8,
+            "apply": 8.0,
+            "build": 79.2
+        },
         "trend": "rising",
         "trend_2030_estimate": 83,
         "trend_confidence_band": [
@@ -187,7 +252,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
         "distinct_employers": 64,
         "postings": 385,
-        "demand_depth": "build",
+        "demand_depth": "apply",
+        "demand_mix": {
+            "know": 17.9,
+            "apply": 67.7,
+            "build": 14.4
+        },
         "trend": "rising",
         "trend_2030_estimate": 83,
         "trend_confidence_band": [
@@ -202,6 +272,11 @@
         "distinct_employers": 63,
         "postings": 423,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.6,
+            "apply": 10.4,
+            "build": 78.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 82,
         "trend_confidence_band": [
@@ -216,6 +291,11 @@
         "distinct_employers": 62,
         "postings": 66,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.7,
+            "apply": 7.3,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 81,
         "trend_confidence_band": [
@@ -230,6 +310,11 @@
         "distinct_employers": 60,
         "postings": 738,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.3,
+            "apply": 11.7,
+            "build": 77.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 78,
         "trend_confidence_band": [
@@ -244,6 +329,11 @@
         "distinct_employers": 55,
         "postings": 60,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.5,
+            "apply": 8.8,
+            "build": 77.7
+        },
         "trend": "steady",
         "trend_2030_estimate": 58,
         "trend_confidence_band": [
@@ -258,6 +348,11 @@
         "distinct_employers": 53,
         "postings": 57,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.9,
+            "apply": 7.1,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 81,
         "trend_confidence_band": [
@@ -272,6 +367,11 @@
         "distinct_employers": 48,
         "postings": 408,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.2,
+            "apply": 11.4,
+            "build": 77.4
+        },
         "trend": "steady",
         "trend_2030_estimate": 50,
         "trend_confidence_band": [
@@ -286,6 +386,11 @@
         "distinct_employers": 47,
         "postings": 52,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 27.7,
+            "apply": 27.3,
+            "build": 45.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 61,
         "trend_confidence_band": [
@@ -300,6 +405,11 @@
         "distinct_employers": 46,
         "postings": 47,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 33.9,
+            "apply": 25.9,
+            "build": 40.2
+        },
         "trend": "steady",
         "trend_2030_estimate": 48,
         "trend_confidence_band": [
@@ -313,7 +423,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/89f6560b-2194-45c9-9ece-d33049a73eef",
         "distinct_employers": 39,
         "postings": 40,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 45.0,
+            "apply": 35.0,
+            "build": 20.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 41,
         "trend_confidence_band": [
@@ -328,6 +443,11 @@
         "distinct_employers": 38,
         "postings": 39,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.9,
+            "apply": 9.0,
+            "build": 79.1
+        },
         "trend": "steady",
         "trend_2030_estimate": 40,
         "trend_confidence_band": [
@@ -341,7 +461,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/b5c7e0dc-dda3-4790-a7d1-d6d8023b3089",
         "distinct_employers": 37,
         "postings": 42,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 53.7,
+            "apply": 29.0,
+            "build": 17.3
+        },
         "trend": "steady",
         "trend_2030_estimate": 39,
         "trend_confidence_band": [
@@ -356,6 +481,11 @@
         "distinct_employers": 34,
         "postings": 417,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.2,
+            "apply": 10.8,
+            "build": 78.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 36,
         "trend_confidence_band": [
@@ -370,6 +500,11 @@
         "distinct_employers": 34,
         "postings": 37,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 29.3,
+            "apply": 25.7,
+            "build": 45.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 44,
         "trend_confidence_band": [
@@ -384,6 +519,11 @@
         "distinct_employers": 33,
         "postings": 37,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 27.2,
+            "apply": 27.8,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 35,
         "trend_confidence_band": [
@@ -398,6 +538,11 @@
         "distinct_employers": 32,
         "postings": 34,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 37.9,
+            "apply": 23.3,
+            "build": 38.8
+        },
         "trend": "steady",
         "trend_2030_estimate": 34,
         "trend_confidence_band": [
@@ -412,6 +557,11 @@
         "distinct_employers": 31,
         "postings": 304,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 26.1,
+            "apply": 28.9,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 33,
         "trend_confidence_band": [
@@ -426,6 +576,11 @@
         "distinct_employers": 28,
         "postings": 28,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 14.3,
+            "apply": 7.8,
+            "build": 77.9
+        },
         "trend": "rising",
         "trend_2030_estimate": 36,
         "trend_confidence_band": [
@@ -440,6 +595,11 @@
         "distinct_employers": 28,
         "postings": 28,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 25.0,
+            "apply": 70.0,
+            "build": 5.0
+        },
         "trend": "fading",
         "trend_2030_estimate": 22,
         "trend_confidence_band": [
@@ -454,6 +614,11 @@
         "distinct_employers": 27,
         "postings": 28,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 14.3,
+            "apply": 13.2,
+            "build": 72.5
+        },
         "trend": "rising",
         "trend_2030_estimate": 35,
         "trend_confidence_band": [
@@ -468,6 +633,11 @@
         "distinct_employers": 26,
         "postings": 31,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.4,
+            "apply": 6.8,
+            "build": 79.8
+        },
         "trend": "steady",
         "trend_2030_estimate": 27,
         "trend_confidence_band": [
@@ -482,6 +652,11 @@
         "distinct_employers": 23,
         "postings": 23,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 18.5,
+            "apply": 63.2,
+            "build": 18.3
+        },
         "trend": "steady",
         "trend_2030_estimate": 24,
         "trend_confidence_band": [
@@ -496,6 +671,11 @@
         "distinct_employers": 23,
         "postings": 23,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 30.2,
+            "apply": 24.8,
+            "build": 45.0
+        },
         "trend": "fading",
         "trend_2030_estimate": 17,
         "trend_confidence_band": [
@@ -510,6 +690,11 @@
         "distinct_employers": 22,
         "postings": 25,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.8,
+            "apply": 9.2,
+            "build": 79.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 29,
         "trend_confidence_band": [
@@ -523,7 +708,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/02058de6-4b98-449f-8a45-8588b0eb2446",
         "distinct_employers": 21,
         "postings": 23,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 46.5,
+            "apply": 33.5,
+            "build": 20.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 27,
         "trend_confidence_band": [
@@ -538,6 +728,11 @@
         "distinct_employers": 20,
         "postings": 22,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 30.5,
+            "apply": 24.5,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 21,
         "trend_confidence_band": [
@@ -552,6 +747,11 @@
         "distinct_employers": 20,
         "postings": 382,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 26.5,
+            "apply": 28.5,
+            "build": 45.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 26,
         "trend_confidence_band": [
@@ -566,6 +766,11 @@
         "distinct_employers": 19,
         "postings": 21,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 15.0,
+            "apply": 10.5,
+            "build": 74.5
+        },
         "trend": "rising",
         "trend_2030_estimate": 25,
         "trend_confidence_band": [
@@ -580,6 +785,11 @@
         "distinct_employers": 19,
         "postings": 20,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 29.0,
+            "apply": 26.0,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 20,
         "trend_confidence_band": [
@@ -594,6 +804,11 @@
         "distinct_employers": 17,
         "postings": 17,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 34.4,
+            "apply": 22.7,
+            "build": 42.9
+        },
         "trend": "rising",
         "trend_2030_estimate": 22,
         "trend_confidence_band": [
@@ -608,6 +823,11 @@
         "distinct_employers": 15,
         "postings": 15,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 29.0,
+            "apply": 26.0,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 16,
         "trend_confidence_band": [
@@ -622,6 +842,11 @@
         "distinct_employers": 14,
         "postings": 14,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 17.5,
+            "apply": 15.4,
+            "build": 67.1
+        },
         "trend": "steady",
         "trend_2030_estimate": 15,
         "trend_confidence_band": [
@@ -635,7 +860,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93",
         "distinct_employers": 14,
         "postings": 15,
-        "demand_depth": "build",
+        "demand_depth": "apply",
+        "demand_mix": {
+            "know": 25.0,
+            "apply": 65.7,
+            "build": 9.3
+        },
         "trend": "steady",
         "trend_2030_estimate": 15,
         "trend_confidence_band": [
@@ -650,6 +880,11 @@
         "distinct_employers": 14,
         "postings": 15,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 14.0,
+            "apply": 7.7,
+            "build": 78.3
+        },
         "trend": "steady",
         "trend_2030_estimate": 15,
         "trend_confidence_band": [
@@ -663,7 +898,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/d0c6d77e-cb25-4770-bf77-2073fc5f7523",
         "distinct_employers": 13,
         "postings": 15,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 45.7,
+            "apply": 34.3,
+            "build": 20.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 17,
         "trend_confidence_band": [
@@ -678,6 +918,11 @@
         "distinct_employers": 13,
         "postings": 14,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 17.9,
+            "apply": 62.1,
+            "build": 20.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 14,
         "trend_confidence_band": [
@@ -691,7 +936,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/f1b5800e-b763-4740-9586-3fef30568e81",
         "distinct_employers": 12,
         "postings": 12,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 70.0,
+            "apply": 25.0,
+            "build": 5.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 13,
         "trend_confidence_band": [
@@ -706,6 +956,11 @@
         "distinct_employers": 11,
         "postings": 12,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 23.3,
+            "apply": 66.7,
+            "build": 10.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 12,
         "trend_confidence_band": [
@@ -719,7 +974,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/ddc3119d-1d6e-4324-9125-a3380d299ac5",
         "distinct_employers": 10,
         "postings": 11,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 55.0,
+            "apply": 26.8,
+            "build": 18.2
+        },
         "trend": "rising",
         "trend_2030_estimate": 13,
         "trend_confidence_band": [
@@ -734,6 +994,11 @@
         "distinct_employers": 10,
         "postings": 10,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 16.0,
+            "apply": 9.0,
+            "build": 75.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 10,
         "trend_confidence_band": [
@@ -748,6 +1013,11 @@
         "distinct_employers": 9,
         "postings": 9,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.3,
+            "apply": 7.3,
+            "build": 79.4
+        },
         "trend": "rising",
         "trend_2030_estimate": 12,
         "trend_confidence_band": [
@@ -762,6 +1032,11 @@
         "distinct_employers": 9,
         "postings": 9,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 19.4,
+            "apply": 65.0,
+            "build": 15.6
+        },
         "trend": "steady",
         "trend_2030_estimate": 9,
         "trend_confidence_band": [
@@ -776,6 +1051,11 @@
         "distinct_employers": 9,
         "postings": 9,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 27.2,
+            "apply": 27.8,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 9,
         "trend_confidence_band": [
@@ -790,6 +1070,11 @@
         "distinct_employers": 9,
         "postings": 9,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.3,
+            "apply": 7.3,
+            "build": 79.4
+        },
         "trend": "steady",
         "trend_2030_estimate": 9,
         "trend_confidence_band": [
@@ -804,6 +1089,11 @@
         "distinct_employers": 8,
         "postings": 8,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 11.9,
+            "apply": 11.9,
+            "build": 76.2
+        },
         "trend": "steady",
         "trend_2030_estimate": 8,
         "trend_confidence_band": [
@@ -817,7 +1107,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/86d2e2ea-1ba2-4aa6-b465-8a1f9abc81b8",
         "distinct_employers": 8,
         "postings": 8,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 45.0,
+            "apply": 35.0,
+            "build": 20.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 8,
         "trend_confidence_band": [
@@ -832,6 +1127,11 @@
         "distinct_employers": 8,
         "postings": 9,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 16.7,
+            "apply": 16.1,
+            "build": 67.2
+        },
         "trend": "steady",
         "trend_2030_estimate": 8,
         "trend_confidence_band": [
@@ -846,6 +1146,11 @@
         "distinct_employers": 7,
         "postings": 7,
         "demand_depth": "apply",
+        "demand_mix": {
+            "know": 15.0,
+            "apply": 65.0,
+            "build": 20.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 9,
         "trend_confidence_band": [
@@ -860,6 +1165,11 @@
         "distinct_employers": 7,
         "postings": 7,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 12.1,
+            "apply": 7.9,
+            "build": 80.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 7,
         "trend_confidence_band": [
@@ -874,6 +1184,11 @@
         "distinct_employers": 6,
         "postings": 6,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 25.0,
+            "apply": 30.0,
+            "build": 45.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 8,
         "trend_confidence_band": [
@@ -888,6 +1203,11 @@
         "distinct_employers": 6,
         "postings": 6,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 10.0,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 8,
         "trend_confidence_band": [
@@ -902,6 +1222,11 @@
         "distinct_employers": 6,
         "postings": 6,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 15.0,
+            "apply": 5.0,
+            "build": 80.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 6,
         "trend_confidence_band": [
@@ -916,6 +1241,11 @@
         "distinct_employers": 5,
         "postings": 5,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 10.0,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 6,
         "trend_confidence_band": [
@@ -930,6 +1260,11 @@
         "distinct_employers": 5,
         "postings": 5,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 33.0,
+            "apply": 22.0,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 5,
         "trend_confidence_band": [
@@ -944,6 +1279,11 @@
         "distinct_employers": 5,
         "postings": 5,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 10.0,
+            "build": 80.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 6,
         "trend_confidence_band": [
@@ -958,6 +1298,11 @@
         "distinct_employers": 5,
         "postings": 5,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 23.0,
+            "build": 67.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 6,
         "trend_confidence_band": [
@@ -972,6 +1317,11 @@
         "distinct_employers": 4,
         "postings": 4,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 13.8,
+            "apply": 11.2,
+            "build": 75.0
+        },
         "trend": "rising",
         "trend_2030_estimate": 5,
         "trend_confidence_band": [
@@ -986,6 +1336,11 @@
         "distinct_employers": 4,
         "postings": 4,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 30.0,
+            "apply": 25.0,
+            "build": 45.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 4,
         "trend_confidence_band": [
@@ -999,7 +1354,12 @@
         "esco_uri": "http://data.europa.eu/esco/skill/d7b66759-c40c-44de-9f31-9418f84e10c5",
         "distinct_employers": 4,
         "postings": 4,
-        "demand_depth": "build",
+        "demand_depth": "know",
+        "demand_mix": {
+            "know": 48.8,
+            "apply": 32.4,
+            "build": 18.8
+        },
         "trend": "steady",
         "trend_2030_estimate": 4,
         "trend_confidence_band": [
@@ -1014,6 +1374,11 @@
         "distinct_employers": 4,
         "postings": 4,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 10.0,
+            "build": 80.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 4,
         "trend_confidence_band": [
@@ -1028,6 +1393,11 @@
         "distinct_employers": 4,
         "postings": 4,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 12.5,
+            "build": 77.5
+        },
         "trend": "steady",
         "trend_2030_estimate": 4,
         "trend_confidence_band": [
@@ -1042,6 +1412,11 @@
         "distinct_employers": 4,
         "postings": 5,
         "demand_depth": "build",
+        "demand_mix": {
+            "know": 10.0,
+            "apply": 17.0,
+            "build": 73.0
+        },
         "trend": "steady",
         "trend_2030_estimate": 4,
         "trend_confidence_band": [

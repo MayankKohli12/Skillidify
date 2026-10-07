@@ -107,22 +107,30 @@ ICT_FALLBACK = re.compile(
     re.I,
 )
 
-# Skills where entry-level market demand is practically always "apply" (tool usage, querying, operational workflows)
+# Skills where entry-level roles primarily expect conceptual / foundational understanding ("know")
+THEORY_KNOW_SKILLS = {
+    "computer science", "principles of artificial intelligence", "data science",
+    "database quality standards", "assess risk factors", "ict infrastructure",
+    "computer technology", "computer engineering", "network engineering",
+    "analyse production processes for improvement", "apply information security policies"
+}
+
+# Skills where demand is primarily tool execution / query / operations ("apply")
 APPLY_CENTRIC_SKILLS = {
     "git", "version control", "linux", "unix", "sql", "html & css", "html", "css",
     "jira", "docker", "postman", "rest api", "unit test", "debugging", "shell script",
-    "bash", "command line", "agile", "scrum", "sdlc", "ci/cd"
+    "bash", "command line", "agile", "scrum", "sdlc", "ci/cd", "spreadsheets",
+    "data visualisation", "tableau", "sas language", "web analytics"
 }
 
-# Skills where fresher market demand requires architecting, coding, or building systems
+# Skills where fresher roles demand direct core architecture / implementation ("build")
 CORE_BUILDER_SKILLS = {
     "c++", "c", "java", "python", "algorithms", "data structures", 
-    "machine learning", "deep learning", "artificial intelligence",
-    "software architecture", "computer programming", "backend", 
-    "object-oriented programming", "develop software prototype", 
-    "design database scheme", "natural language processing", "computer vision",
-    "web programming", "angular", "react", "ajax", "scala"
+    "machine learning", "deep learning", "natural language processing", "computer vision",
+    "develop software prototype", "design database scheme", "web programming", 
+    "angular", "react", "ajax", "scala", "develop data processing applications"
 }
+
 # ------------------------------------------------------------ HELPERS
 def norm(s: str) -> str:
     s = re.sub(r"\s+", " ", str(s).lower().strip())
@@ -340,14 +348,14 @@ def choose_k(counts: pd.Series, n_employers: int, forced: int = None) -> int:
 
 
 def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
-    # 1. Identify builder titles (Engineers, Developers, SDEs, Data Scientists)
+    # 1. Identify builder vs junior vs general roles
     is_core_builder = long["title"].str.contains(
-        r"\b(?:developer|engineer|sde|programmer|scientist|architect)\b",
+        r"\b(?:developer|engineer|sde|programmer|scientist|architect|backend|full[- ]?stack)\b",
         case=False,
         regex=True
     )
     is_junior_or_trainee = long["title"].str.contains(
-        r"\b(?:trainee|intern|internship|graduate|entry|junior|jr|associate|support|qa|tester)\b",
+        r"\b(?:trainee|intern|internship|graduate|entry|junior|jr|associate|support|analyst)\b",
         case=False,
         regex=True
     )
@@ -371,22 +379,47 @@ def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
     for j, r in stats.iterrows():
         n = int(r["employers"])
         skill_name_lower = esco.labels[j].lower()
+        b_share = float(r["core_builder_share"])
+        j_share = float(r["junior_share"])
 
-        # 2. Multi-factor depth heuristic
-        if any(tool in skill_name_lower for tool in APPLY_CENTRIC_SKILLS):
-            demand_depth = "apply"
+        # 2. Derive continuous Bloom mix percentages based on skill nature & role distribution
+        # Multi-tier distribution based on skill domain and role seniority
+        if any(theory in skill_name_lower for theory in THEORY_KNOW_SKILLS):
+            # Conceptual / theoretical fundamentals: heavy "know", moderate "apply"
+            know_pct = round(max(45.0, min(70.0, 55.0 + j_share * 20.0 - b_share * 15.0)), 1)
+            build_pct = round(max(5.0, min(20.0, b_share * 25.0)), 1)
+            apply_pct = round(100.0 - know_pct - build_pct, 1)
+
+        elif any(tool in skill_name_lower for tool in APPLY_CENTRIC_SKILLS):
+            # Operational tools & libraries: heavy "apply"
+            know_pct = round(max(10.0, min(25.0, 15.0 + j_share * 20.0)), 1)
+            build_pct = round(max(5.0, min(20.0, b_share * 20.0)), 1)
+            apply_pct = round(100.0 - know_pct - build_pct, 1)
+
         elif any(core in skill_name_lower for core in CORE_BUILDER_SKILLS):
-            demand_depth = "build"
-        elif r["junior_share"] >= 0.35:
-            demand_depth = "apply"
-        elif r["core_builder_share"] >= 0.25:
-            demand_depth = "build"
+            # Systems engineering & architecture: heavy "build"
+            know_pct = round(max(5.0, min(20.0, 10.0 + j_share * 15.0)), 1)
+            build_pct = round(max(50.0, min(80.0, 55.0 + b_share * 30.0 - j_share * 10.0)), 1)
+            apply_pct = round(100.0 - know_pct - build_pct, 1)
+
         else:
-            demand_depth = "apply"
+            # Balanced general engineering skills
+            know_pct = round(max(20.0, min(40.0, 25.0 + j_share * 20.0)), 1)
+            build_pct = round(max(25.0, min(45.0, 30.0 + b_share * 20.0)), 1)
+            apply_pct = round(100.0 - know_pct - build_pct, 1)
+
+        demand_mix = {
+            "know": know_pct,
+            "apply": apply_pct,
+            "build": build_pct
+        }
+
+        # Prevailing mode
+        dominant_depth = max(demand_mix, key=demand_mix.get)
+
 
         # 3. Market Growth Projections
         if MOCK_TRENDS:
-            # Anchor trends based on current tech demand
             if any(h in skill_name_lower for h in ["machine learning", "artificial intelligence", "python", "deep learning", "cloud"]):
                 trend = "rising"
                 mult = rng.uniform(1.35, 1.65)
@@ -410,7 +443,8 @@ def build_output(long: pd.DataFrame, esco: EscoIndex, k: int) -> list:
             "esco_uri": esco.uris[j],
             "distinct_employers": n,
             "postings": int(r["postings"]),
-            "demand_depth": demand_depth,
+            "demand_depth": dominant_depth,
+            "demand_mix": demand_mix,
             "trend": trend,
             "trend_2030_estimate": est,
             "trend_confidence_band": band,
