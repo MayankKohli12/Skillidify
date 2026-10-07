@@ -219,6 +219,11 @@ TAXONOMY = [
     ("data_science", "NLP & computer vision", ["nlp", "natural language processing", "computer vision", "opencv"]),
 ]
 
+DEFAULT_CANONICAL_VERBS = {
+    "know": "understand",
+    "apply": "implement",
+    "build": "design"
+}
 
 def _compile(alias: str) -> re.Pattern:
     if alias.startswith("re:"):
@@ -281,7 +286,12 @@ def infer_depth(fragment: str, bt: str, kind: str):
     verb = leading_verb(fragment)
     if verb:
         return verb, VERB2DEPTH[verb]
-    return None, bt_to_depth(bt) or ("apply" if kind == "practical" else "know")
+    
+    # If no leading verb exists, deduce depth from BT level or course kind
+    depth = bt_to_depth(bt) or ("apply" if kind == "practical" else "know")
+    # Supply canonical Bloom's action verb corresponding to the assigned depth
+    canonical_verb = DEFAULT_CANONICAL_VERBS.get(depth, "understand")
+    return canonical_verb, depth
 
 
 # ------------------------------------------------------------------ STEP 1: course vetting
@@ -339,18 +349,22 @@ def _detect_header(cells: list[str]):
     m = {"topic": t, "ncols": len(cells),
          "kind": "practical" if "experiment" in cells[t].lower() else "theory"}
     for i, c in enumerate(cells):
-        cl = c.lower()
+        cl = c.lower().strip()
         if cl.startswith("unit"):
             m.setdefault("unit", i)
         elif "bt" in cl and "co" in cl:
             m["bt"] = i
-        elif re.search(r"\bhou?rs?\b|\bhrs\b", cl):
+        # Broader regex for lecture hours/counts: "hours", "hrs", "lec", "lectures", "periods", or standalone "l"
+        elif re.search(r"\b(?:hou?rs?|hrs?|lectures?|periods?|duration)\b|^l$", cl):
             m["hours"] = i
     return m
 
-
 def table_chunks(pdf_path: Path) -> list[dict]:
-    """Read ONLY the Topic / Experiment-Name column of the lecture-plan tables."""
+    """Read ONLY the Topic / Experiment-Name column of the lecture-plan tables,
+
+    extracting contact hours with fallback sensible defaults (1 hr lecture / 2
+    hrs lab).
+    """
     out, cmap = [], None
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -363,22 +377,33 @@ def table_chunks(pdf_path: Path) -> list[dict]:
                     if hdr:
                         cmap = hdr
                         continue
-                    # continuation pages repeat no header: reuse the last map if the shape matches
+                    # Continuation pages repeat no header: reuse the last map if shape matches
                     if cmap is None or len(cells) != cmap["ncols"]:
                         continue
+
                     topic = cells[cmap["topic"]]
                     if len(topic) < 3:
                         continue
-                    hrs = cells[cmap["hours"]] if "hours" in cmap else ""
+
+                    # Extract contact hours from table if present
+                    hrs_val = None
+                    if "hours" in cmap and cmap["hours"] < len(cells) and cells[cmap["hours"]]:
+                        m_hrs = re.search(r"\d+", cells[cmap["hours"]])
+                        if m_hrs:
+                            hrs_val = int(m_hrs.group())
+
+                    # Fallback contact hours if missing or zero: 2 contact hours for practical/lab, 1 for lecture
+                    if hrs_val is None or hrs_val == 0:
+                        hrs_val = 2 if cmap["kind"] == "practical" else 1
+
                     out.append({
                         "raw": topic,
-                        "bt": cells[cmap["bt"]] if "bt" in cmap else "",
-                        "unit": (cells[cmap["unit"]] or None) if "unit" in cmap else None,
-                        "hours": int(re.search(r"\d+", hrs).group()) if re.search(r"\d+", hrs) else None,
+                        "bt": cells[cmap["bt"]] if ("bt" in cmap and cmap["bt"] < len(cells)) else "",
+                        "unit": (cells[cmap["unit"]] or None) if ("unit" in cmap and cmap["unit"] < len(cells)) else None,
+                        "hours": hrs_val,
                         "kind": cmap["kind"],
                     })
     return out
-
 
 SKIP_LINE = re.compile(r"^(po\d+|peo\d+|pso\d+|mission|vision|sr no|credit|mode of|assessment|mst-|"
                        r"practical end|attendance|exam name|co vs po|r-|t-)", re.I)

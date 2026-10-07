@@ -7,9 +7,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Asymptotic notations",
-    "verb": null,
+    "verb": "design",
     "unit": "1",
-    "hours": null,
+    "hours": 8,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -32,9 +32,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Implementation of Quick Sort using Divide and Conquer",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -53,9 +53,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Implementation of Knapsack Problem using Greedy Algorithm",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -74,9 +74,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Implementation of Graph Traversal Techniques (BFS & DFS)",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -96,9 +96,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Greedy Algorithm",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -118,9 +118,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Linear Search",
-    "verb": null,
+    "verb": "implement",
     "unit": "2",
-    "hours": null,
+    "hours": 8,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -146,7 +146,7 @@
     "original_topic": "Write a C program to print a Floyd’s Triangle using for loop. 1 2 3 4 5 6 7 8 9 10",
     "verb": "write",
     "unit": "2",
-    "hours": null,
+    "hours": 5,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -170,7 +170,7 @@
     "original_topic": "Introduction to Sorting",
     "verb": "introduction",
     "unit": "1",
-    "hours": null,
+    "hours": 12,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -195,7 +195,7 @@
     "original_topic": "Understand supervised learning to train and develop classifier models",
     "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 16,
     "source": "LecturePlan_CS201_26ECP-102.pdf",
     "sources": [
       "LecturePlan_CS201_26ECP-102.pdf"
@@ -217,9 +217,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "NumPy & Matplotlib for Data Analysis",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS201_26ECP-102.pdf",
     "sources": [
       "LecturePlan_CS201_26ECP-102.pdf"
@@ -238,9 +238,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Natural Language Processing and Azure AI Tools",
-    "verb": null,
+    "verb": "understand",
     "unit": "2",
-    "hours": null,
+    "hours": 8,
     "source": "LecturePlan_CS201_26ECP-102.pdf",
     "sources": [
       "LecturePlan_CS201_26ECP-102.pdf"
@@ -260,9 +260,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Pandas",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS201_26ECP-102.pdf",
     "sources": [
       "LecturePlan_CS201_26ECP-102.pdf"
@@ -281,9 +281,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Schema and Instances",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 14,
     "source": "LecturePlan_CS228_25CSH-236.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-236.pdf",
@@ -307,9 +307,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "DBMS definition",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-236.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-236.pdf"
@@ -331,7 +331,7 @@
     "original_topic": "Relational Algebra: Introduction",
     "verb": "introduction",
     "unit": "1",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-236.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-236.pdf"
@@ -351,9 +351,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "SQL: Data Definition",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 35,
     "source": "LecturePlan_CS228_25CSH-236.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-236.pdf"
@@ -378,7 +378,7 @@
     "original_topic": "Introduction to Transaction Processing",
     "verb": "introduction",
     "unit": "3",
-    "hours": null,
+    "hours": 7,
     "source": "LecturePlan_CS228_25CSH-236.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-236.pdf"
@@ -403,7 +403,7 @@
     "original_topic": "Introduction to array",
     "verb": "introduction",
     "unit": "2",
-    "hours": null,
+    "hours": 26,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -428,9 +428,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "AVL Search trees",
-    "verb": null,
+    "verb": "implement",
     "unit": "3",
-    "hours": null,
+    "hours": 3,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -450,9 +450,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Binary Search trees",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -475,7 +475,7 @@
     "original_topic": "Introduction to Data Structures",
     "verb": "introduction",
     "unit": "1",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf",
@@ -497,9 +497,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Graph Theory terminology",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 8,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -522,9 +522,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Hash Table",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -545,9 +545,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Priority queue",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 6,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -571,7 +571,7 @@
     "original_topic": "Linear linked list",
     "verb": "list",
     "unit": "2",
-    "hours": null,
+    "hours": 7,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -594,9 +594,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Linear queue",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 9,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -619,9 +619,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Operations on stacks: PUSH &POP",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -642,9 +642,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Binary Trees",
-    "verb": null,
+    "verb": "implement",
     "unit": "3",
-    "hours": null,
+    "hours": 13,
     "source": "LecturePlan_CS228_25CSH-232.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-232.pdf"
@@ -669,7 +669,7 @@
     "original_topic": "Java Constructor",
     "verb": "construct",
     "unit": "1",
-    "hours": null,
+    "hours": 1,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -688,9 +688,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Abstraction",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 3,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf",
@@ -712,9 +712,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Inheritance",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -735,7 +735,7 @@
     "original_topic": "Write a java program using thread synchronization in multithreading",
     "verb": "write",
     "unit": "2",
-    "hours": null,
+    "hours": 3,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -755,9 +755,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Class fundamentals",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 9,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -780,9 +780,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Polymorphism",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 3,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -803,9 +803,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Function Template",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 1,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -824,9 +824,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Features & Applications of C language",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 12,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf"
@@ -849,9 +849,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Decision making statements (if, if- else, if-else-if, switch)",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -875,7 +875,7 @@
     "original_topic": "Develop a program that takes student details as input and prints them using input/output functions",
     "verb": "develop",
     "unit": "1",
-    "hours": null,
+    "hours": 6,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf"
@@ -898,7 +898,7 @@
     "original_topic": "Write the test cases for GMAIL",
     "verb": "write",
     "unit": "3",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS228_25CSH-247.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-247.pdf"
@@ -920,7 +920,7 @@
     "original_topic": "Introduction to Dynamic memory allocation",
     "verb": "introduction",
     "unit": "3",
-    "hours": null,
+    "hours": 4,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -944,9 +944,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Exception Handling",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf",
@@ -967,9 +967,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "File Handling",
-    "verb": null,
+    "verb": "design",
     "unit": "3",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf",
@@ -990,9 +990,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "I/O functions",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 32,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1020,7 +1020,7 @@
     "original_topic": "Introduction to Java",
     "verb": "introduction",
     "unit": "1",
-    "hours": null,
+    "hours": 21,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
@@ -1043,9 +1043,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Looping statementsLooping statements (for, while, do-while)",
-    "verb": null,
+    "verb": "understand",
     "unit": "2",
-    "hours": null,
+    "hours": 13,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1071,9 +1071,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Operators",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 10,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1101,7 +1101,7 @@
     "original_topic": "Pointers: Basics of pointers",
     "verb": "basics",
     "unit": "3",
-    "hours": null,
+    "hours": 9,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1125,9 +1125,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Header Files",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 1,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf"
@@ -1146,9 +1146,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Problem Solving phases: Understanding the problem",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 1,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf"
@@ -1167,9 +1167,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Recursive functions",
-    "verb": null,
+    "verb": "implement",
     "unit": "2",
-    "hours": null,
+    "hours": 11,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1196,7 +1196,7 @@
     "original_topic": "Introduction to Strings",
     "verb": "introduction",
     "unit": "2",
-    "hours": null,
+    "hours": 12,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1220,9 +1220,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Structure of writing a C Program",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 19,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1247,9 +1247,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Type Casting",
-    "verb": null,
+    "verb": "implement",
     "unit": "1",
-    "hours": null,
+    "hours": 1,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf"
@@ -1268,9 +1268,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Data Types",
-    "verb": null,
+    "verb": "understand",
     "unit": "1",
-    "hours": null,
+    "hours": 9,
     "source": "LecturePlan_CS201_26CSH-101.pdf",
     "sources": [
       "LecturePlan_CS201_26CSH-101.pdf",
@@ -1295,9 +1295,9 @@
     "confidence": 0.95,
     "match_type": "alias",
     "original_topic": "Installation of Git and create a git repository",
-    "verb": null,
+    "verb": "design",
     "unit": "2",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-247.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-247.pdf"
@@ -1318,7 +1318,7 @@
     "original_topic": "Create a simple HTML form containing a Text field and a Button. By clicking on the submit button",
     "verb": "create",
     "unit": "3",
-    "hours": null,
+    "hours": 2,
     "source": "LecturePlan_CS228_25CSH-235.pdf",
     "sources": [
       "LecturePlan_CS228_25CSH-235.pdf"
